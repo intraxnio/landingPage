@@ -19,10 +19,10 @@ function BodyMain() {
 
             <div className="container row btn-container mx-auto">
                 <div className="col-md-3 col-6">
-                    <div className="col-md-12 col-12 btn signup-btn-grad">I`m a Brand</div>
+                    <div className="col-md-12 col-12 btn signup-btn-grad">I`m Brand</div>
                 </div>
                 <div className="col-md-3 col-6">
-                    <div className="col-md-12 col-12 btn login-btn-grad">I `m a Creator</div>
+                    <div className="col-md-12 col-12 btn login-btn-grad">I `m Creator</div>
                 </div>
             </div>
 
