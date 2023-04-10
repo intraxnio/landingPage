@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '../../public/intraxn-logo.svg'
+import logo from '../../public/Intraxn-logo.svg'
 
 export default function Navbar() {
     return (
