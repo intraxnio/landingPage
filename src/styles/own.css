@@ -74,7 +74,6 @@ font-family: 'Roboto', sans-serif; */
     .txt-1 {
 
         font-family: 'Poppins';
-        margin-left: 3rem;
         font-size: 2rem;
         margin-top: 6rem;
 
@@ -83,7 +82,7 @@ font-family: 'Roboto', sans-serif; */
     .txt-2 {
 
         font-family: 'Poppins';
-        margin-left: 3rem;
+        padding-left: 1rem;
         font-size: 3rem;
         font-weight: 500;
         margin-top: 1rem;
@@ -93,7 +92,7 @@ font-family: 'Roboto', sans-serif; */
     .txt-3 {
 
         font-family: 'Poppins';
-        margin-left: 3rem;
+        padding-left: 2rem;
         font-size: 3rem;
         font-weight: 500;
 
@@ -128,10 +127,10 @@ font-family: 'Roboto', sans-serif; */
     .txt-1 {
 
         font-family: 'Poppins';
-        font-size: 1rem;
+        font-size: 16px;
         margin-top: 1.2rem;
         font-weight: 400;
-        text-align: center;
+        /* text-align: center; */
 
     }
 
@@ -140,7 +139,8 @@ font-family: 'Roboto', sans-serif; */
         font-family: 'Poppins';
         font-size: 1.5rem;
         font-weight: 600;
-        margin-top: 1rem;
+        padding-top: 0.5rem;
+        /* text-align: center; */
         justify-content: center;
 
     }
@@ -151,14 +151,13 @@ font-family: 'Roboto', sans-serif; */
         font-size: 1.5rem;
         font-weight: 600;
         text-align: center;
-        margin-bottom: 1rem;
 
     }
 
     .txt-4 {
 
         font-family: 'Poppins';
-        margin-top: 1rem;
+        padding-top: 0.5rem;
         font-size: 0.9rem;
         font-weight: 500;
         margin-bottom: 2rem;
@@ -177,3 +176,103 @@ font-family: 'Roboto', sans-serif; */
 
 
 }
+
+#budRes{
+    color:#ff2121;
+    font-weight: 500;
+}
+
+#megaRes{
+    color: #7149C6;
+    font-weight: 500;
+}
+
+.gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: #CA4246;
+    
+    /* Create the gradient. */
+     background-image: linear-gradient(
+          45deg,
+          #CA4246 16.666%, 
+          #E16541 16.666%, 
+          #E16541 33.333%, 
+          #F18F43 33.333%, 
+          #F18F43 50%, 
+          #8B9862 50%, 
+          #8B9862 66.666%, 
+          #476098 66.666%, 
+          #476098 83.333%, 
+          #A7489B 83.333%);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    /* background-clip: border-box; */
+    -webkit-text-fill-color: transparent; 
+    
+    /* Animate the text when loading the element. */
+      /* This animates it on page load and when hovering out. */
+      animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+  
+  }
+  
+  .gradient-text:hover{
+      animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+  }
+  
+  
+  /* Move the background and make it smaller. */
+  /* Animation shown when entering the page and after the hover animation. */
+  @keyframes rainbow-text-simple-animation-rev {
+      0% {
+          background-size: 650%;
+      }
+      40% {
+          background-size: 650%;
+      }
+      100% {
+          background-size: 100%;
+      }
+  }
+  
+  /* Move the background and make it larger. */
+  /* Animation shown when hovering over the text. */
+  @keyframes rainbow-text-simple-animation {
+      0% {
+          background-size: 100%;
+      }
+      80% {
+          background-size: 650%;
+      }
+      100% {
+          background-size: 650%;
+      }
+  }
+
+
+  .span-underline {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+}
+
+.span-underline::after {
+    background:#7149C6;
+    background: linear-gradient(to right, transparent 0%, #7149C6 50%, transparent 100%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+ }
+
+    
+  
+  
+
