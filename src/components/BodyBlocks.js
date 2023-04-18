@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-// import image1 from '../../public/blockimage.png'
-import image1 from "../../public/banner.svg";
+import sideimage1 from '../../public/side-image1.png'
 
 
 function BodyBlocks() {
@@ -20,7 +19,7 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-                <Image className="img-fluid rounded" src={image1} alt="creator image" />
+                <Image className="img-fluid rounded" src={sideimage1} alt="creator image" />
             </div>
         </div>
     </div>
@@ -28,7 +27,7 @@ function BodyBlocks() {
     <div className="container mt-3">
         <div className="container row mx-auto">
         <div className="col-12 col-md-6 col-lg-6 order-2 order-md-0 order-lg-0">
-                <Image className="img-fluid rounded" src={image1} alt="social media" />
+                <Image className="img-fluid rounded" src={sideimage1} alt="social media" />
             </div>
 
             <div className="col-12 col-md-6 col-lg-6 my-auto">
@@ -56,7 +55,7 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-                <Image className="img-fluid rounded" src={image1} alt="social media" />
+                <Image className="img-fluid rounded" src={sideimage1} alt="social media" />
             </div>
         </div>
     </div>
