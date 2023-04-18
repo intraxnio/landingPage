@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import sideimage1 from '../../public/side-image1.png'
+import banner1 from '../../public/banner1.svg'
 
 
 function BodyBlocks() {
@@ -19,7 +20,7 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-                <Image className="img-fluid rounded" src={sideimage1} alt="creator image" />
+                <Image className="img-fluid rounded" src={banner1} alt="creator image" />
             </div>
         </div>
     </div>
