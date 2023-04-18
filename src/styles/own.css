@@ -118,6 +118,49 @@ font-family: 'Roboto', sans-serif; */
 
     }
 
+    
+.bb-txt-1{
+
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #2f2e2e;
+    margin-top:10px;
+    margin-bottom:15px;
+
+}
+
+.bb-txt-2{
+
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2f2e2e;
+    margin-bottom: 25px;
+}
+
+.bb-txt-3{
+
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2e2e;
+}
+.bb-txt-4{
+
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2e2e;
+}
+.bb-txt-5{
+
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2e2e;
+}
+
 
 
 
@@ -174,6 +217,53 @@ font-family: 'Roboto', sans-serif; */
         margin-bottom: 2rem;
     }
 
+    .bb-txt-1{
+
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #2f2e2e;
+        margin-bottom: 15px;
+        margin-top:10px;
+    }
+    
+    .bb-txt-2{
+    
+        font-family: 'Poppins';
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 15px;
+        color: #2f2e2e;
+    }
+    
+    .bb-txt-3{
+    
+        font-family: 'Poppins';
+        font-size: 17px;
+        font-weight: 400;
+        color: #2f2e2e;
+        margin-bottom: 10px;
+
+    }
+    .bb-txt-4{
+    
+        font-family: 'Poppins';
+        font-size: 17px;
+        font-weight: 400;
+        color: #2f2e2e;
+        margin-bottom: 10px;
+
+    }
+    .bb-txt-5{
+    
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #2f2e2e;
+        margin-bottom: 15px;
+
+    }
+
 
 }
 
@@ -186,6 +276,7 @@ font-family: 'Roboto', sans-serif; */
     color: #7149C6;
     font-weight: 500;
 }
+
 
 .gradient-text {
     /* Fallback: Set a background color. */
@@ -271,6 +362,133 @@ font-family: 'Roboto', sans-serif; */
     height: 2px;
     width: 100%;
  }
+
+ .body-tag-styles{
+    font-family: 'Poppins';
+    padding-top: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3a3543b5;
+ }
+
+ .body-bottom-tag-styles{
+    font-family: 'Poppins';
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000000b5;
+
+ }
+
+
+
+ /* Accordian and Footer Css code */
+ .nature-background {
+    background-color: #ffffff;
+}
+
+.product-card {
+    max-width: 82vw;
+    max-height: 80vh;
+    border-radius: 5px;
+}
+
+
+.card-1-bg {
+    background-color: #4D4D4D;
+}
+
+.card-2-bg {
+    background-color: #ab77ff89;
+}
+
+.card-3-bg {
+    background-color: #ffd96698;
+}
+
+.card-1-text {
+    color: #ffffff;
+}
+
+.strike-color {
+    color: #4D4D4D
+}
+
+.offer-color {
+    color: rgb(255, 0, 0);
+}
+
+.product-text {
+    text-decoration: none;
+    color: black;
+}
+
+.checkedStar {
+    color: orange;
+}
+
+.review-container {
+    height: 40vh;
+
+}
+
+.testimonial-class {
+    font-size: 1.5rem;
+    background-color: #CCD5AE;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+
+/* custom css */
+
+.my-accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+
+}
+
+.bg-footer-container {
+
+    background-color: #8d63e7;
+    color:white
+}
+
+.footer-head-text{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+
+@media (min-width: 576px) {
+    .my-accordion-item {
+        color: var(--bs-accordion-color);
+        background-color: var(--bs-accordion-bg);
+        align-items: center;
+        max-width: 50%;
+    }
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'),
+        url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+}
+
+.div-bg-bg {
+    background-image: linear-gradient(to right top, #5cee44, #c5c400, #fd8e00, #ff4a46, #ff008a, #ff009a, #ff00ab, #ff00bd, #ff0092, #ff1e69, #ff4a43, #ff6a1b);
+    height: 70vh;
+}
+
+
+/* body blocks text css */
+
 
     
   
