@@ -16,7 +16,7 @@ function BodyMain() {
           <div className="row txt-3">
             <p>
               Way to Amplify your Brand. <br /> Boost
-              <span className="gradient-text"> Sales</span>; Not{" "}
+              <span className="gradient-text"> Sales</span>; Not
               <span id="budRes"> Budget</span>
             </p>
           </div>
