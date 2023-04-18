@@ -22,8 +22,7 @@ function BodyMain() {
           </div>
           <div className="row txt-4">
             <p>
-              Intraxn is a
-              <span className="span-underline">micro-influencer platform</span>,
+              Intraxn is a <span className="span-underline">micro-influencer platform</span>,
               where Brands meet influencers in making ever most affordable
               collaborations.
             </p>
