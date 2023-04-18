@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import image1 from '../../public/blockimage.png'
+// import image1 from '../../public/blockimage.png'
+import image1 from "../../public/banner.svg";
+
 
 function BodyBlocks() {
   return (
