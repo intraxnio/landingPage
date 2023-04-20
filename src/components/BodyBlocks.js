@@ -20,7 +20,8 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-                <Image className="img-fluid rounded" src={banner1} alt="creator image" />
+                {/* <Image className="img-fluid rounded" src={banner1} alt="creator image" /> */}
+                <img src="/banner1.jpg" alt="banner" />
                 
 
                 {/* <Image className="img-fluid rounded"
