@@ -71,6 +71,7 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 400;
 }
 
+
 /* Desktop Size*/
 
 @media (min-width: 576px) {
@@ -121,6 +122,7 @@ font-family: 'Roboto', sans-serif; */
     margin-bottom: 15px;
   }
 
+  
   .bb-txt-2 {
     font-family: "Poppins";
     font-size: 1rem;
@@ -180,7 +182,7 @@ font-family: 'Roboto', sans-serif; */
     padding-top: 0.5rem;
     font-size: 0.9rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
     text-align: center;
   }
 
@@ -200,6 +202,7 @@ font-family: 'Roboto', sans-serif; */
     color: #2f2e2e;
     margin-bottom: 15px;
     margin-top: 10px;
+
   }
 
   .bb-txt-2 {
@@ -279,7 +282,7 @@ font-family: 'Roboto', sans-serif; */
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
   -webkit-background-clip: text;
-  /* background-clip: border-box; */
+  background-clip: '';
   -webkit-text-fill-color: transparent;
 
   /* Animate the text when loading the element. */

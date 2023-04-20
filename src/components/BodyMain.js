@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import banner from "../../public/banner.svg";
+// import banner from "../../public/banner.svg";
+import banner from "../../public/mainBanner.webp";
+// import banner from "../../public/banner.jpg";
 
 function BodyMain() {
   return (
@@ -29,7 +31,7 @@ function BodyMain() {
           </div>
         </div>
         <div className="col-md-4 col-lg-4 img-1">
-          <Image className="img-fluid rounded-5" src={banner} alt="banner" />
+          <Image className="img-fluid rounded-5" src={banner} priority={true} alt="banner" />
         </div>
       </div>
 

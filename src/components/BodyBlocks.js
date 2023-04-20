@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import banner1 from '../../public/banner1.svg'
-import banner2 from '../../public/banner2.svg'
-import banner3 from '../../public/banner3.svg'
+import banner2 from '../../public/banner2.webp'
+import banner3 from '../../public/banner3.webp'
 
 
 function BodyBlocks() {
