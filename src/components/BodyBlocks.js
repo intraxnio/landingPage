@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-// import banner1 from '../../public/banner1.svg'
-// import banner2 from '../../public/banner2.webp'
-// import banner3 from '../../public/banner3.webp'
+import banner1 from '../../public/banner1.jpg'
+import banner2 from '../../public/banner2.jpg'
+import banner3 from '../../public/banner3.jpg'
 
 
 function BodyBlocks() {
@@ -20,15 +20,15 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-                {/* <Image className="img-fluid rounded" src={banner1} alt="creator image" /> */}
+                <Image className="img-fluid rounded" src={banner1} alt="creator image" />
                 
 
-                <Image className="img-fluid rounded"
+                {/* <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/banner1.webp"}
             width={800}
             height={800}
             alt="passion into profession"
-          />
+          /> */}
 
                 
             </div>
@@ -38,12 +38,14 @@ function BodyBlocks() {
     <div className="container mt-3">
         <div className="container row mx-auto">
         <div className="col-12 col-md-6 col-lg-6 order-2 order-md-0 order-lg-0">
-                <Image className="img-fluid rounded"
+        <Image className="img-fluid rounded" src={banner2} alt="Social Media" />
+
+                {/* <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/banner2.webp"}
             width={800}
             height={800}
             alt="Social Media"
-          />
+          /> */}
             </div>
 
             <div className="col-12 col-md-6 col-lg-6 my-auto">
@@ -71,14 +73,15 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-                {/* <img className="img-fluid rounded" src="/banner3.webp" alt="social media" /> */}
+        <Image className="img-fluid rounded" src={banner3} alt="Business Growth" />
 
-                <Image className="img-fluid rounded"
+
+                {/* <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/banner3.webp"}
             width={800}
             height={800}
             alt="Sales Growth"
-          />
+          /> */}
             </div>
         </div>
     </div>

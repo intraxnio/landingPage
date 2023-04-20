@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-// import banner from "../../public/banner.svg";
-// import banner from "../../public/banner.jpg";
+import banner from "../../public/mainBanner.jpg";
 
 function BodyMain() {
   return (
@@ -31,15 +30,16 @@ function BodyMain() {
           </div>
         </div>
         <div className="col-md-4 col-lg-4 img-1">
+        <Image className="img-fluid rounded" src={banner} priority={true} alt="Passion into Profession" />
         
 
-          <Image className="img-fluid rounded"
+          {/* <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/mainBanner.webp"}
             priority={true}
             width={576}
             height={700}
             alt="passion into profession"
-          />
+          /> */}
         </div>
       </div>
 
