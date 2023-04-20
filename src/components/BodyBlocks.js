@@ -1,8 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import banner1 from '/public/banner1.jpg'
-import banner2 from '/public/banner2.jpg'
-import banner3 from '/public/banner3.jpg'
 
 
 function BodyBlocks() {
@@ -21,7 +17,7 @@ function BodyBlocks() {
 
             <div className="col-12 col-md-6 col-lg-6">
                 {/* <Image className="img-fluid rounded" src={banner1} alt="creator image" /> */}
-                <img className="img-fluid rounded" src="/banner1.jpg" alt="banner" />
+                <img className="img-fluid rounded" src="/banner1.webp" alt="banner" width={800} height={800} />
                 
 
                 {/* <Image className="img-fluid rounded"
@@ -39,7 +35,10 @@ function BodyBlocks() {
     <div className="container mt-3">
         <div className="container row mx-auto">
         <div className="col-12 col-md-6 col-lg-6 order-2 order-md-0 order-lg-0">
-        <Image className="img-fluid rounded" src={banner2} alt="Social Media" />
+        {/* <Image className="img-fluid rounded" src={banner2} alt="Social Media" />
+         */}
+
+<img className="img-fluid rounded" src="/banner2.webp" alt="social Media" width={800} height={800} />
 
                 {/* <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/banner2.webp"}
@@ -74,7 +73,9 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-        <Image className="img-fluid rounded" src={banner3} alt="Business Growth" />
+        {/* <Image className="img-fluid rounded" src={banner3} alt="Business Growth" /> */}
+<img className="img-fluid rounded" src="/banner3.webp" alt="Business Growth" width={800} height={800} />
+
 
 
                 {/* <Image className="img-fluid rounded"
