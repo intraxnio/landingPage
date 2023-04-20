@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 // import banner from "../../public/banner.svg";
-import banner from "../../public/mainBanner.webp";
 // import banner from "../../public/banner.jpg";
 
 function BodyMain() {
@@ -32,8 +31,7 @@ function BodyMain() {
           </div>
         </div>
         <div className="col-md-4 col-lg-4 img-1">
-          {/* <img className="img-fluid rounded-5" src="/mainBanner.webp" priority={true} alt="banner" />
-           */}
+        
 
           <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/mainBanner.webp"}
