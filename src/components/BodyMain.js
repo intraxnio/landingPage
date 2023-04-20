@@ -1,5 +1,6 @@
 import React from "react";
 import mainBanner from '../../public/mainBanner.svg'
+import Image from "next/image";
 
 function BodyMain() {
   return (
