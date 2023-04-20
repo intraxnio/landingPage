@@ -1,4 +1,5 @@
 import React from "react";
+import mainBanner from '../../public/mainBanner.svg'
 
 function BodyMain() {
   return (
@@ -28,8 +29,8 @@ function BodyMain() {
           </div>
         </div>
         <div className="col-md-4 col-lg-4 img-1">
-        {/* <Image className="img-fluid rounded" src={banner} priority={true} alt="Passion into Profession" /> */}
-<img className="img-fluid rounded" src="/mainBanner.webp" alt="Passion Profession" width={576} height={700} />
+        <Image className="img-fluid rounded" src={mainBanner} priority={true} alt="Passion into Profession" />
+{/* <img className="img-fluid rounded" src="/mainBanner.webp" alt="Passion Profession" width={576} height={700} /> */}
 
         
 
