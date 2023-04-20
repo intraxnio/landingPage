@@ -17,7 +17,7 @@ function BodyBlocks() {
 
             <div className="col-12 col-md-6 col-lg-6">
                 {/* <Image className="img-fluid rounded" src={banner1} alt="creator image" /> */}
-                <img className="img-fluid rounded" src="/banner1.webp" alt="banner" width={800} height={800} />
+                <img className="img-fluid rounded" src="/banner1.webp" alt="banner" width={500} height={500} />
                 
 
                 {/* <Image className="img-fluid rounded"
@@ -38,7 +38,7 @@ function BodyBlocks() {
         {/* <Image className="img-fluid rounded" src={banner2} alt="Social Media" />
          */}
 
-<img className="img-fluid rounded" src="/banner2.webp" alt="social Media" width={800} height={800} />
+<img className="img-fluid rounded" src="/banner2.webp" alt="social Media" width={500} height={500} />
 
                 {/* <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/banner2.webp"}
@@ -74,7 +74,7 @@ function BodyBlocks() {
 
             <div className="col-12 col-md-6 col-lg-6">
         {/* <Image className="img-fluid rounded" src={banner3} alt="Business Growth" /> */}
-<img className="img-fluid rounded" src="/banner3.webp" alt="Business Growth" width={800} height={800} />
+<img className="img-fluid rounded" src="/banner3.webp" alt="Business Growth" width={500} height={500} />
 
 
 
