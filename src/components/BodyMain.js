@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import banner from "../../public/mainBanner.jpg";
+import banner from "../../public/mainBanner.svg";
 
 function BodyMain() {
   return (
