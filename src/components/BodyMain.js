@@ -24,14 +24,24 @@ function BodyMain() {
           </div>
           <div className="row txt-4">
             <p>
-              Intraxn is a <span className="span-underline">micro-influencer platform</span>,
+              Intraxn is a{" "}
+              <span className="span-underline">micro-influencer platform</span>,
               where Brands meet influencers in making ever most affordable
               collaborations.
             </p>
           </div>
         </div>
         <div className="col-md-4 col-lg-4 img-1">
-          <Image className="img-fluid rounded-5" src={banner} priority={true} alt="banner" />
+          {/* <img className="img-fluid rounded-5" src="/mainBanner.webp" priority={true} alt="banner" />
+           */}
+
+          <Image className="img-fluid rounded"
+            src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/mainBanner.webp"}
+            priority={true}
+            width={576}
+            height={700}
+            alt="passion into profession"
+          />
         </div>
       </div>
 
