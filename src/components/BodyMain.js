@@ -46,12 +46,12 @@ function BodyMain() {
       <div className="container row btn-container mx-auto">
         <div className="col-md-3 col-6">
           <div className="col-md-12 col-12 btn signup-btn-grad">
-            I`m a Brand
+            I&apos;m a Brand
           </div>
         </div>
         <div className="col-md-3 col-6">
           <div className="col-md-12 col-12 btn login-btn-grad">
-            I `m a Creator
+            I&apos;m a Creator
           </div>
         </div>
       </div>

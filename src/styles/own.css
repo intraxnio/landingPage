@@ -71,6 +71,10 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 400;
 }
 
+.subhead-decoration{
+  text-decoration: none;
+}
+
 
 /* Desktop Size*/
 
@@ -79,6 +83,16 @@ font-family: 'Roboto', sans-serif; */
     font-family: "Poppins";
     font-size: 2rem;
     margin-top: 6rem;
+  }
+
+  .custom-drop-width{
+    width:20rem;
+  }
+
+
+  .custom-link-width{
+    /* width: 35rem; */
+
   }
 
   .txt-2 {
@@ -568,3 +582,35 @@ font-family: 'Roboto', sans-serif; */
   border-bottom: var(--borderWidth) solid var(--borderColor);
   border-right: var(--borderWidth) solid var(--borderColor);
 }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.head-sub-head{
+  color:grey;
+  font-family: 'Poppins';
+  font-size: 13px;
+}
+
