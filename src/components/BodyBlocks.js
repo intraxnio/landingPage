@@ -51,8 +51,8 @@ function BodyBlocks() {
 
             <div className="col-12 col-md-6 col-lg-6 my-auto">
                 <div className="row bb-txt-1"><p>Are you a <span className="creator-underline">Brand ?</span></p></div>
-                <div className="row bb-txt-2"><p><span className="span-49">49%</span> of consumers say, they depend on influencer recommendations before they buy anything.
-               It&apos;s no wonder why <span className="span-70">70%</span> of teens trust creator content more than a celebrity endorsement.</p></div>
+                <div className="row bb-txt-2"><p><span className="span-49">49%</span> of consumers say, they depend on influencer recommendations before they buy anything. 
+              <span className="span-70">70%</span> of teens trust creator content more than a celebrity endorsement.</p></div>
                 <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Big impact on Marketing ROI</p></div>
                 <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Highest engagement rate of 6%</p></div>
                 <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Low budget; More brand reach</p></div>
