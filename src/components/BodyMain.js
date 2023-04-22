@@ -10,20 +10,17 @@ function BodyMain() {
               Micro Influencers bring <span id="megaRes">Mega Results</span>
             </p>
           </div>
-          <div className="row txt-2">The Affordable</div>
-          <div className="row txt-3">
-            <p>
-              Way to Amplify your Brand. <br /> Boost
-              <span className="gradient-text"> Sales</span>; Not
-              <span id="budRes"> Budget</span>
-            </p>
-          </div>
+          <div className="row txt-2"> <p>Get Paid for<br />
+              posts on 
+              <span className="gradient-text"> Instagram.</span>
+              </p></div>
+       
           <div className="row txt-4">
             <p>
-              Intraxn is a{" "}
-              <span className="span-underline">micro-influencer platform</span>,
-              where Brands meet influencers in making ever most affordable
-              collaborations.
+              Discover
+              <span className="creator-underline"> new collaborations</span>,
+              and monetize your Instagram account with Intraxn.
+
             </p>
           </div>
         </div>
