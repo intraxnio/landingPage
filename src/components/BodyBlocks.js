@@ -39,7 +39,7 @@ function BodyBlocks() {
         {/* <Image className="img-fluid rounded" src={banner2} alt="Social Media" />
          */}
 
-<img className="img-fluid rounded" src="/banner2.webp" alt="social Media" width={500} height={500} />
+        <img className="img-fluid rounded" src="/banner2.webp" alt="social Media" width={500} height={500} />
 
                 {/* <Image className="img-fluid rounded"
             src={"https://intraxn-app.s3.ap-south-1.amazonaws.com/banner2.webp"}
