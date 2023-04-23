@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -10,10 +11,10 @@ export default function Footer() {
                 
               <ul>
                 <li className="footer-head-text">Useful</li>
-                <li className="footer-content-text">Terms & Conditions</li>
-                <li className="footer-content-text">Privacy Policy</li>
-                <li className="footer-content-text">Cancellation Policy</li>
-                <li className="footer-content-text">Refund Policy</li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/terms-conditions">Terms & Conditions</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/privacy-policy">Privacy Policy</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/cancellation-policy">Cancellation Policy</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/refund-policy">Refund Policy</Link></li>
               </ul>
             </div>
           </div>
@@ -21,10 +22,10 @@ export default function Footer() {
             <div className="div">
               <ul>
                 <li className="footer-head-text">Support</li>
-                <li className="footer-content-text">Contact Us</li>
-                <li className="footer-content-text">For Creators</li>
-                <li className="footer-content-text">For Brands</li>
-                <li className="footer-content-text">Others</li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/support/contact">Contact Us</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/support/creators">For Creators</Link>For Creators</li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/support/brands">For Brands</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/support/others">Others</Link></li>
               </ul>
             </div>
           </div>
@@ -32,10 +33,10 @@ export default function Footer() {
             <div className="div">
               <ul>
                 <li className="footer-head-text">Company</li>
-                <li className="footer-content-text">Blog</li>
-                <li className="footer-content-text">About Us</li>
-                <li className="footer-content-text">Our Mission</li>
-                <li className="footer-content-text">Sitemap</li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/blog/first-blog">Blog</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/about">About Us</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/our-mission">Our Mission</Link></li>
+                <li className="footer-content-text"><Link className="footer-subhead-decoration" href="/sitemap">Sitemap</Link></li>
               </ul>
             </div>
           </div>
