@@ -4,6 +4,7 @@ import BodyMain from '@/components/BodyMain'
 import Accordian from '@/components/Accordian'
 import Footer from '@/components/Footer'
 import BodyBlocks from '@/components/BodyBlocks'
+import BodyCards from '@/components/BodyCards'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Navbar />
       <BodyMain />
       <BodyBlocks />
+      <BodyCards />
       <Accordian />
       <Footer />
          </>

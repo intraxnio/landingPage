@@ -12,6 +12,61 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 400;
 }
 
+
+
+/* BodyMain component's two buttons styling - START*/
+
+.login-btn-grad-main{
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display:block;
+  width: 9rem;
+}
+
+.login-btn-grad-main:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.signup-btn-grad-main {
+  background-image: linear-gradient(
+    to right,
+    #1d976c 0%,
+    #93f9b9 51%,
+    #1d976c 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  width: 9rem;
+}
+
+.signup-btn-grad-main:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* BodyMain component's two buttons styling- END*/
+
+
+
+
 .login-btn-grad {
   background-image: linear-gradient(
     to right,
@@ -24,8 +79,8 @@ font-family: 'Roboto', sans-serif; */
   background-size: 200% auto;
   color: white;
   box-shadow: 0 0 20px #eee;
-  display: block;
-  width: 10rem;
+  display: inline-block;
+  width: 12rem;
 }
 
 .login-btn-grad:hover {
@@ -48,7 +103,7 @@ font-family: 'Roboto', sans-serif; */
   color: white;
   box-shadow: 0 0 20px #eee;
   display: block;
-  width: 10rem;
+  width: 12rem;
 }
 
 .signup-btn-grad:hover {
@@ -109,9 +164,6 @@ font-family: 'Roboto', sans-serif; */
     margin-top: 3rem;
   }
 
-  .btn-container {
-    padding-left: 3.5rem;
-  }
 
   .bb-txt-1 {
     font-family: "Poppins";
@@ -148,6 +200,16 @@ font-family: 'Roboto', sans-serif; */
     font-size: 1.2rem;
     font-weight: 400;
     color: #2f2e2e;
+  }
+
+  .inf-txt-1 {
+    font-family: "Poppins";
+    font-size: 60px;
+    font-weight: 700;
+    color: #2f2e2e;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    
   }
 }
 
@@ -234,6 +296,18 @@ font-family: 'Roboto', sans-serif; */
     color: #2f2e2e;
     margin-bottom: 15px;
   }
+
+  .inf-txt-1 {
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 700;
+    color: #2f2e2e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 60px;
+    
+  }
+
 }
 
 .span-49 {
@@ -603,5 +677,21 @@ font-family: 'Roboto', sans-serif; */
 
 .custom-box-shadow-navbar{
   box-shadow: 2px 2px 5px rgba(96, 48, 255, 0.621);
+}
+
+.custom-container-dimensions{
+  height:auto;
+  background-color: #b973ff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+.custom-container-dimensions-1{
+  height:auto;
+  background-color: #A4BE7B;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
