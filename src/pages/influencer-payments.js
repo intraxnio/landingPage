@@ -3,6 +3,8 @@ import Navbar from '@/components/Navbar'
 import Head from 'next/head'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
+import mainImage from '/public/creator-payments.jpg'
+import Image from 'next/image'
 
 
 function creatorPayments() {
@@ -28,7 +30,8 @@ function creatorPayments() {
       <Navbar />
       
       <div className="container">
-        <img className="img-fluid" src="/creator-payments.jpg" alt="influencer-payments" />
+        {/* <img className="img-fluid" src="/creator-payments.jpg" alt="influencer-payments" /> */}
+        <Image className="img-fluid" src={mainImage} alt="influencer-payments" />
       </div>
 
       <div className="container mt-5">
