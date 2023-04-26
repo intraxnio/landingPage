@@ -5,10 +5,10 @@ function BodyMain() {
     <>
       <div className="container mx-auto row">
         <div className="container col-md-8 col-lg-8">
-          <div className="row txt-1">
-            <p>
-              Micro Influencers bring <span id="megaRes">Mega Results</span>
-            </p>
+          <div className="row txt-1 megaRes">
+            
+              <span className="">Micro Influencers</span>
+            
           </div>
           <div className="row txt-2"> <p>Get Paid for<br />
               posts on 

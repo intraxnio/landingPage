@@ -141,7 +141,7 @@ font-family: 'Roboto', sans-serif; */
   .txt-2 {
     font-family: "Poppins";
     font-size: 65px;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .txt-3 {
@@ -154,7 +154,7 @@ font-family: 'Roboto', sans-serif; */
   .txt-4 {
     font-family: "Poppins";
     margin-top: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     padding-right: 10rem;
     text-align: start;
@@ -181,6 +181,7 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 400;
     color: #2f2e2e;
     margin-bottom: 25px;
+    line-height: 28px;
   }
 
   .bb-txt-3 {
@@ -226,7 +227,7 @@ font-family: 'Roboto', sans-serif; */
   .txt-2 {
     font-family: "Poppins";
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     padding-left: 1rem;
   }
 
@@ -241,7 +242,7 @@ font-family: 'Roboto', sans-serif; */
     font-family: "Poppins";
     padding-top: 0.5rem;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
 
@@ -272,6 +273,7 @@ font-family: 'Roboto', sans-serif; */
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 15px;
+    line-height: 25px;
     color: #2f2e2e;
   }
 
@@ -325,10 +327,14 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 500;
 }
 
-#megaRes {
+.megaRes {
   color: #7149c6;
+  position: relative;
+  text-decoration: none;
   font-weight: 500;
 }
+
+
 
 .gradient-text {
   /* Fallback: Set a background color. */
@@ -694,4 +700,9 @@ font-family: 'Roboto', sans-serif; */
   padding-bottom: 60px;
 
 }
+
+/* Social Icons Css*/
+
+
+
 

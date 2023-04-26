@@ -33,20 +33,20 @@ export default function Navbar() {
                                 <div className="container row mx-auto pt-2">
                                
                                <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                               <div className="col-10 col-md-10"> <Link className="subhead-decoration"href="/find-Creator"> Find Creator <br />
+                               <div className="col-10 col-md-10"> <Link className="subhead-decoration"href="/find-influencers"> Find Creator <br />
                                <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
                         
                            </div>
 
                            <div className="container row mx-auto pt-2">
                                <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe8e5;</span></div>
-                               <div className="col-10 col-md-10 "> <Link className="subhead-decoration"href="analytics"> Reports & Analytics <br />
+                               <div className="col-10 col-md-10 "> <Link className="subhead-decoration"href="/campaign-analytics"> Reports & Analytics <br />
                                <span className="head-sub-head">Real-time analytics and analyse performance</span></Link></div>
                            </div>
 
                            <div className="container row mx-auto pt-2">
                                <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xeaf7;</span></div>
-                               <div className="col-10 col-md-10 "> <Link className="subhead-decoration"href="creator-Payments"> Creator Payment <br />
+                               <div className="col-10 col-md-10 "> <Link className="subhead-decoration"href="/influencer-payments"> Creator Payment <br />
                                <span className="head-sub-head">Individual&apos;s trust: made same day payments possible</span></Link></div>
                            </div>
 
@@ -67,14 +67,14 @@ export default function Navbar() {
                                 <div className="container row mx-auto pt-2">
                                
                                <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                               <div className="col-10 col-md-10"> <Link className="subhead-decoration"href="/find-Creator"> Creator Insights <br />
+                               <div className="col-10 col-md-10"> <Link className="subhead-decoration"href="/find-influencers"> Creator Insights <br />
                                <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
                         
                            </div>
 
                            <div className="container row mx-auto pt-2">
                                <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe8e5;</span></div>
-                               <div className="col-10 col-md-10 "> <Link className="subhead-decoration"href="analytics"> AI Verify <br />
+                               <div className="col-10 col-md-10 "> <Link className="subhead-decoration"href="/campaign-analytics"> AI Verify <br />
                                <span className="head-sub-head">Real-time analytics and analyse performance</span></Link></div>
                            </div>
 
@@ -96,7 +96,7 @@ export default function Navbar() {
                                 <div className="container row mx-auto pt-2">
                                
                                <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                               <div className="col-10 col-md-10"> <Link className="subhead-decoration"href="/find-Creator"> How payment works <br />
+                               <div className="col-10 col-md-10"> <Link className="subhead-decoration"href="/find-influencers"> How payment works <br />
                                <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
                         
                            </div>
