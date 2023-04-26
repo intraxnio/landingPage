@@ -33,7 +33,7 @@ export default function Navbar() {
                                 <div className="container row mx-auto pt-2">
 
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/find-influencers"> Find Creator <br />
+                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/find-influencers"> Find Influencer <br />
                                         <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
 
                                 </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
 
                                 <div className="container row mx-auto pt-2">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xeaf7;</span></div>
-                                    <div className="col-10 col-md-10 "> <Link className="subhead-decoration" href="/influencer-payments"> Creator Payment <br />
+                                    <div className="col-10 col-md-10 "> <Link className="subhead-decoration" href="/influencer-payments"> Influencer Payments <br />
                                         <span className="head-sub-head">Individual&apos;s trust: made same day payments possible</span></Link></div>
                                 </div>
 
@@ -67,7 +67,7 @@ export default function Navbar() {
                                 <div className="container row mx-auto pt-2">
 
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/find-influencers"> Creator Insights <br />
+                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/find-influencers"> Influencer Insights <br />
                                         <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
 
                                 </div>

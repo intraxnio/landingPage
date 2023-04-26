@@ -34,7 +34,7 @@ function BodyBlocks() {
 
             <div className="col-12 col-md-6 col-lg-6 my-auto">
                 <div className="row bb-txt-1"><p>Are you a <span className="creator-underline">Brand ?</span></p></div>
-                <div className="row bb-txt-2"><p><span className="span-49">49%</span> of consumers say, they depend on influencer recommendations before they buy anything.
+                <div className="row bb-txt-2"><p><span className="span-70">49%</span> of consumers say, they depend on influencer recommendations before they buy anything.
                 <span className="span-70"> 70%</span> of teens trust creator content more than a celebrity endorsement.</p></div>
                 <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Big impact on Marketing ROI</p></div>
                 <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Highest engagement rate of 6%</p></div>
@@ -50,8 +50,8 @@ function BodyBlocks() {
         <div className="row">
           <div className="col-md-6 col-12 txt-2 text-center my-auto"><p>Finalize influencer<br /> <span className="creator-underline"> in 2 minutes</span></p> </div>
           <div className="col-md-6 col-12 my-auto">
-            <div className="container mx-auto h2 pt-2">Achieve guaranteed results with our campaign planner</div>
-            <div className="container mx-auto row pt-2 pb-4">Define objectives & budget, customize deliverables and go live!</div>
+            <div className="container mx-auto h2 pt-2">Pick micro-influencers who match your audience.</div>
+            <div className="container mx-auto row pt-2 pb-4">Target the right audience by selecting niche content creators.</div>
             <div className="container mx-auto "> <div className="col-md-12 col-12 btn signup-btn-grad">
             Find Influencer
           </div></div>
@@ -87,8 +87,8 @@ function BodyBlocks() {
         <div className="row">
           <div className="col-md-6 col-12 txt-2 text-center my-auto"><p>Create Campaign<br /> <span className="creator-underline"> in 5 minutes</span></p> </div>
           <div className="col-md-6 col-12 my-auto">
-            <div className="container mx-auto h2 pt-2">Achieve guaranteed results with our campaign planner</div>
-            <div className="container mx-auto row pt-2 pb-4">Define objectives & budget, customize deliverables and go live!</div>
+            <div className="container mx-auto h2 pt-2">With in 3 easy steps, campaign can be created.</div>
+            <div className="container mx-auto row pt-2 pb-4">Upload content, deliverables & pick influencers and go live!</div>
             <div className="container mx-auto "> <div className="col-md-12 col-12 btn login-btn-grad">
             Create Campaign
           </div></div>

@@ -43,13 +43,40 @@ export default function Footer() {
           <div className="container col-sm-12 col-12 col-md-3 col-lg-3 my-2">
             <div className="div">
               <ul>
-                <li className="footer-head-text">Registered HQ</li>
+                {/* <li className="footer-head-text">Registered HQ</li>
                 <li className="footer-content-text">
                   Plot no-210, Century Hills, Hyderabad Telangana - 500018
                 </li>
                 <li className="footer-content-text">
                   help@intraxn.com
+                </li> */}
+
+                <li className="footer-head-text">Compare</li>
+                <li className="footer-content-text">
+                 Grynow Alternative
                 </li>
+                <li className="footer-content-text">
+                 Plixxo Alternative
+                </li>
+                <li className="footer-content-text">
+                 Grin Alternative
+                </li>
+                <li className="footer-content-text">
+                 Influencer Alternative
+                </li>
+                <li className="footer-content-text">
+                 Winkl Alternative
+                </li>
+                <li className="footer-content-text">
+                 Qoruz Alternative
+                </li>
+                <li className="footer-content-text">
+                 CreatorIQ Alternative
+                </li>
+                <li className="footer-content-text">
+                 PulpKey Alternative
+                </li>
+
                 <li className="footer-head-text pt-4">
                   Follow us 
                 </li>

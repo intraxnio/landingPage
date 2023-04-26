@@ -96,9 +96,9 @@ function findCreator() {
         <div className="row">
           <div className="col-md-6 col-12 txt-2 text-center my-auto"><p>Finalize influencer<br /> <span className="creator-underline"> in 2 minutes</span></p> </div>
           <div className="col-md-6 col-12 my-auto">
-            <div className="container mx-auto row h1">Achieve guaranteed results with our campaign planner</div>
-            <div className="container mx-auto row pt-3 pb-4">Define objectives & budget, customize deliverables and go live!</div>
-            <div className="container mx-auto row"> <div className="col-md-12 col-12 btn signup-btn-grad">
+            <div className="container mx-auto h2 pt-2">Pick micro-influencers who match your audience.</div>
+            <div className="container mx-auto row pt-2 pb-4">Target the right audience by selecting niche content creators.</div>
+            <div className="container mx-auto "> <div className="col-md-12 col-12 btn signup-btn-grad">
             Find Influencer
           </div></div>
             </div>

@@ -94,8 +94,8 @@ function analytics() {
         <div className="row">
           <div className="col-md-6 col-12 txt-2 text-center my-auto"><p>Create Campaign<br /> <span className="creator-underline"> in 5 minutes</span></p> </div>
           <div className="col-md-6 col-12 my-auto">
-            <div className="container mx-auto h2 pt-2">Achieve guaranteed results with our campaign planner</div>
-            <div className="container mx-auto row pt-2 pb-4">Define objectives & budget, customize deliverables and go live!</div>
+            <div className="container mx-auto h2 pt-2">With in 3 easy steps, campaign can be created.</div>
+            <div className="container mx-auto row pt-2 pb-4">Upload content, deliverables & pick influencers and go live!</div>
             <div className="container mx-auto "> <div className="col-md-12 col-12 btn login-btn-grad">
             Create Campaign
           </div></div>
