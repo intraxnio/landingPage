@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Head from 'next/head'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
-import mainImage from '/creator-payments.jpg'
+import mainImage from '/public/creator-payments.jpg'
 import Image from 'next/image'
 
 
