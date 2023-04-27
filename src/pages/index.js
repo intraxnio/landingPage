@@ -18,8 +18,19 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.intraxn.com" />
         <meta name="google-site-verification" content="Zv0pxrxBGEMiesq_ydWWlCKLB8YiChp4x_TiozuRmaw" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDVV1R1TVX"></script>
+        <script>
+          {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){
+                dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+                gtag('config', 'G-LDVV1R1TVX');
+                `}
+        </script>
         
       </Head>
       <Navbar />
