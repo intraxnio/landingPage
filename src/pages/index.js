@@ -10,11 +10,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Intraxn: Micro Influencer Platform for Brands and Creators</title>
+        <title>Micro Influencer Platform for Brands and Creators: Intraxn</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Best Micro Influencer Platform for Brands and Content Creators in India" />
-        <meta content="Intraxn: Micro Influencer Platform for Brands and Creators" property="og:title" />
-        <meta content="Best Micro Influencer Platform for Brands and Content Creators in India." property="og:description" />
+        <meta name="description" content="Best Micro Influencer Platform for Brands and Content Creators in India. Hassle free
+        Influencer Marketing for Marketers." />
+        <meta content="Micro Influencer Platform for Brands and Creators: Intraxn" property="og:title" />
+        <meta content="Best Micro Influencer Platform for Brands and Content Creators in India. Hassle free
+        Influencer Marketing for Marketers." property="og:description" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
