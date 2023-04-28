@@ -65,7 +65,9 @@ font-family: 'Roboto', sans-serif; */
 
 /* BodyMain component's two buttons styling- END*/
 
-
+.icon-image{
+  object-fit: contain;
+}
 
 .custom-nav-item{
   color:red;

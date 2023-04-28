@@ -1,5 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import instagram from "../../public/icon-instagram.png"
+import facebook from "../../public/icon-facebook.png"
+import youtube from "../../public/icon-youtube.png"
+import twitter from "../../public/icon-twitter.png"
+import linkedin from "../../public/icon-linkedin.png"
 
 export default function Footer() {
   return (
@@ -81,11 +87,11 @@ export default function Footer() {
                   Follow us 
                 </li>
                 <li className="footer-content-text my-1">
-                  <Link href="https://www.instagram.com/intraxn.ai/"><a><img  className="img-fluid rounded me-2" src="/icon-instagram.png" alt="instagram-icon" width={25} height={25} /></a></Link>
-                  <Link href="https://www.facebook.com/intraxn"><a><img  className="img-fluid rounded me-2" src="/icon-facebook.png" alt="facebook-icon" width={25} height={25} /></a></Link>
-                  <Link href="https://www.youtube.com"><a><img  className="img-fluid rounded me-2" src="/icon-youtube.png" alt="youtube-icon" width={30} height={30} /></a></Link>
-                  <Link href="https://www.twitter.com"><a><img  className="img-fluid rounded me-2" src="/icon-twitter.png" alt="twitter-icon" width={25} height={25} /></a></Link>
-                  <Link href="https://www.linkedin.com/company/intraxn-ai/"><a><img  className="img-fluid rounded me-2" src="/icon-linkedin.png" alt="linkedin-icon" width={25} height={25} /></a></Link>
+                  <Link href="https://www.instagram.com/intraxn.ai/"><a><Image  className="img-fluid rounded icon-image me-2" src={instagram} alt="instagram-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.facebook.com/intraxn"><a><Image  className="img-fluid rounded icon-image me-2" src={facebook} alt="facebook-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.youtube.com"><a><Image  className="img-fluid rounded icon-image me-2" src={youtube} alt="youtube-icon" width={50} height={30} /></a></Link>
+                  <Link href="https://www.twitter.com"><a><Image  className="img-fluid rounded icon-image me-2" src={twitter} alt="twitter-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.linkedin.com/company/intraxn-ai/"><a><Image  className="img-fluid rounded icon-image me-2" src={linkedin} alt="linkedin-icon" width={50} height={25} /></a></Link>
 
                   
                 </li>

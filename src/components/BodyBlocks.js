@@ -1,4 +1,9 @@
 import React from 'react'
+import Image from 'next/image'
+import banner1 from "../../public/banner1.webp"
+import banner2 from "../../public/banner2.webp"
+import banner3 from "../../public/banner3.webp"
+
 
 
 function BodyBlocks() {
@@ -18,7 +23,7 @@ function BodyBlocks() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
-                <img className="img-fluid rounded" src="/banner1.webp" alt="banner" width={500} height={500} />
+                <Image className="img-fluid rounded" src={banner1} alt="banner" width={500} height={500} />
             </div>
         </div>
     </div>
@@ -29,7 +34,7 @@ function BodyBlocks() {
 
         <div className="container row mx-auto">
           <div className="col-12 col-md-6 col-lg-6 order-2 order-md-0 order-lg-0">
-          <img className="img-fluid rounded" src="/banner2.webp" alt="social Media" width={500} height={500} />
+          <Image className="img-fluid rounded" src={banner2} alt="social Media" width={500} height={500} />
         </div>
 
             <div className="col-12 col-md-6 col-lg-6 my-auto">
@@ -74,7 +79,7 @@ function BodyBlocks() {
 
             <div className="col-12 col-md-6 col-lg-6">
 
-<img className="img-fluid rounded" src="/banner3.webp" alt="Business Growth" width={500} height={500} />
+<Image className="img-fluid rounded" src={banner3} alt="Business Growth" width={500} height={500} />
 
 
             </div>

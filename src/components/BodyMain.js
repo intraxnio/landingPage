@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import mainBanner from "../../public/image1.jpg"
 import mainBanner from "../../public/mainImg.png"
 
 function BodyMain() {

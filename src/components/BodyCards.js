@@ -1,4 +1,7 @@
 import React from 'react'
+import Image from 'next/image'
+import mainBanner from "../../public/influencers-collage.webp"
+
 
 function BodyCards() {
   return (
@@ -6,7 +9,7 @@ function BodyCards() {
     
     <div className="container row pt-5 pb-4 mx-auto">
         <div className="col-md-6 col-12">
-        <img className="img-fluid rounded" src="/influencers-collage.webp" alt="micro-influencers" width={500} height={500} />
+        <Image className="img-fluid rounded" src={mainBanner} alt="micro-influencers" width={500} height={500} />
 
         </div>
         <div className="container col-md-6 col-12 my-auto">

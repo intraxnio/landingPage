@@ -5,6 +5,7 @@ import Accordian from '@/components/Accordian'
 import Footer from '@/components/Footer'
 import BodyBlocks from '@/components/BodyBlocks'
 import BodyCards from '@/components/BodyCards'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -22,17 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.intraxn.com" />
         <meta name="google-site-verification" content="Zv0pxrxBGEMiesq_ydWWlCKLB8YiChp4x_TiozuRmaw" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDVV1R1TVX"></script>
-        <script>
-          {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){
-                dataLayer.push(arguments);
-                }
-                gtag('js', new Date());
-                gtag('config', 'G-LDVV1R1TVX');
-                `}
-        </script>
+       
         
       </Head>
       <Navbar />
@@ -41,6 +32,14 @@ export default function Home() {
       <BodyCards />
       <Accordian />
       <Footer />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LDVV1R1TVX"></Script>
+
+        <Script id="analytics-script" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || [];
+                function gtag(){
+                dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+                gtag('config', 'G-LDVV1R1TVX');`}}></Script>
          </>
   )
 }
