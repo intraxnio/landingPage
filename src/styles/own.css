@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif; */
 
 
 
+
 /* BodyMain component's two buttons styling - START*/
 
 .login-btn-grad-main{
@@ -66,6 +67,10 @@ font-family: 'Roboto', sans-serif; */
 
 
 
+.custom-nav-item{
+  color:red;
+  text-decoration: none;
+}
 
 .login-btn-grad {
   background-image: linear-gradient(

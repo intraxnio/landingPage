@@ -9,73 +9,69 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light mt-2">
 
             <div className="container-fluid">
-                <Link className="navbar-brand text-success" href="/"> <Image src={logo} alt="intraxn" /></Link>
+                <Link className="navbar-brand text-success" href="/"><Image src={logo} alt="intraxn" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse justify-content-center navbar-collapse ms-md-5" id="navbarNav">
                     <ul className="navbar-nav ms-md-5">
                         <li className="nav-item me-5 ms-2">
-                            <Link className="nav-link active my-2 g-fonts" aria-current="page" href="/">Home</Link>
+                            <Link href="/"><a className="nav-link active my-2 g-fonts" aria-current="page" style={{textDecoration: 'none'}}>Home</a></Link>
                         </li>
 
                         <li className="nav-item dropdown me-5 my-2 ms-2">
-                            <Link className="nav-link dropdown-toggle g-fonts" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Platform
-                            </Link>
+                            <Link href="#" ><a className="nav-link dropdown-toggle g-fonts" role="button" data-bs-toggle="dropdown" aria-expanded="false">Platform</a></Link>
                             <ul className="dropdown-menu custom-drop-width pt-3 pb-3 custom-box-shadow-navbar">
                                 <div className="container row mx-auto">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe0b6;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/influencer-Marketing"> Influencer Marketing <br />
-                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></Link></div>
+                                    <div className="col-10 col-md-10"> <Link href="/influencer-Marketing"><a className="subhead-decoration" >Influencer Marketing</a></Link> <br />
+                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></div>
                                 </div>
 
                                 <div className="container row mx-auto pt-2">
 
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/find-influencers"> Find Influencer <br />
-                                        <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
+                                    <div className="col-10 col-md-10"> <Link href="/find-influencers"><a className="subhead-decoration">Find Influencer</a></Link><br />
+                                        <span className="head-sub-head">Choose your niche specific content creators</span></div>
 
                                 </div>
 
                                 <div className="container row mx-auto pt-2">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe8e5;</span></div>
-                                    <div className="col-10 col-md-10 "> <Link className="subhead-decoration" href="/campaign-analytics"> Reports & Analytics <br />
-                                        <span className="head-sub-head">Real-time analytics and analyse performance</span></Link></div>
+                                    <div className="col-10 col-md-10 "> <Link href="/campaign-analytics"><a className="subhead-decoration" >Reports & Analytics</a></Link><br />
+                                        <span className="head-sub-head">Real-time analytics and analyse performance</span></div>
                                 </div>
 
                                 <div className="container row mx-auto pt-2">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xeaf7;</span></div>
-                                    <div className="col-10 col-md-10 "> <Link className="subhead-decoration" href="/influencer-payments"> Influencer Payments <br />
-                                        <span className="head-sub-head">Individual&apos;s trust: made same day payments possible</span></Link></div>
+                                    <div className="col-10 col-md-10 "> <Link href="/influencer-payments"><a className="subhead-decoration" >Influencer Payments</a></Link><br />
+                                        <span className="head-sub-head">Individual&apos;s trust: made same day payments possible</span></div>
                                 </div>
 
                             </ul>
                         </li>
 
                         <li className="nav-item dropdown me-5 my-2 ms-2">
-                            <Link className="nav-link dropdown-toggle g-fonts" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                No Middleman
-                            </Link>
+                            <Link href="#" ><a className="nav-link dropdown-toggle g-fonts" role="button" data-bs-toggle="dropdown" aria-expanded="false">No Middleman</a></Link>
                             <ul className="dropdown-menu custom-drop-width pt-3 pb-3 custom-box-shadow-navbar">
                                 <div className="container row mx-auto">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe0b6;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/influencer-Marketing"> DIY Campaigns <br />
-                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></Link></div>
+                                    <div className="col-10 col-md-10"> <Link href="/influencer-Marketing"><a className="subhead-decoration">DIY Campaigns</a></Link><br />
+                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></div>
                                 </div>
 
                                 <div className="container row mx-auto pt-2">
 
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/find-influencers"> Influencer Insights <br />
-                                        <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
+                                    <div className="col-10 col-md-10"> <Link href="/find-influencers"><a className="subhead-decoration" >Influencer Insights</a></Link> <br />
+                                        <span className="head-sub-head">Choose your niche specific content creators</span></div>
 
                                 </div>
 
                                 <div className="container row mx-auto pt-2">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe8e5;</span></div>
-                                    <div className="col-10 col-md-10 "> <Link className="subhead-decoration" href="/campaign-analytics"> AI Verify <br />
-                                        <span className="head-sub-head">Real-time analytics and analyse performance</span></Link></div>
+                                    <div className="col-10 col-md-10 "> <Link href="/campaign-analytics"><a className="subhead-decoration" >AI Verify</a></Link> <br />
+                                        <span className="head-sub-head">Real-time analytics and analyse performance</span></div>
                                 </div>
 
 
@@ -83,21 +79,19 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item dropdown me-5 my-2 ms-2">
-                            <Link className="nav-link dropdown-toggle g-fonts" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                For Influencers
-                            </Link>
+                            <Link href="#"><a className="nav-link dropdown-toggle g-fonts" role="button" data-bs-toggle="dropdown" aria-expanded="false"> For Influencers</a></Link>
                             <ul className="dropdown-menu custom-drop-width pt-3 pb-3 custom-box-shadow-navbar">
                                 <div className="container row mx-auto">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe0b6;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/influencer-Marketing"> How to collaborate <br />
-                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></Link></div>
+                                    <div className="col-10 col-md-10"> <Link  href="/influencer-Marketing"><a className="subhead-decoration">How to collaborate</a></Link><br />
+                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></div>
                                 </div>
 
                                 <div className="container row mx-auto pt-2">
 
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                                    <div className="col-10 col-md-10"> <Link className="subhead-decoration" href="/find-influencers"> How payment works <br />
-                                        <span className="head-sub-head">Choose your niche specific content creators</span></Link></div>
+                                    <div className="col-10 col-md-10"> <Link href="/find-influencers"><a className="subhead-decoration">How payment works</a></Link><br />
+                                        <span className="head-sub-head">Choose your niche specific content creators</span></div>
 
                                 </div>
 
@@ -110,7 +104,7 @@ export default function Navbar() {
 
 
                         <li className="nav-item me-5 ms-2 my-2">
-                            <Link className="nav-link g-fonts" href="/blog/first-blog">Blog</Link>
+                            <Link href="/blog/first-blog"><a className="nav-link g-fonts" >Blog</a></Link>
                         </li>
 
 

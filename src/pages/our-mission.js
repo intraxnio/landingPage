@@ -3,8 +3,10 @@ import React from 'react'
 
 function ourMission() {
   return (
-   <>
-   <Navbar />
+  
+   <Navbar>
+    <div>
+   
    <div className="container">
     <img className="img-fluid" src="/influencerMarketing.jpg" alt="influencer Marketing" />
     </div>
@@ -12,7 +14,10 @@ function ourMission() {
     <div className="container">
         <p></p>
     </div>
-   </>
+    </div>
+    </Navbar>
+   
+  
   )
 }
 
