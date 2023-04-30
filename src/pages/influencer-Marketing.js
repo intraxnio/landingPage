@@ -2,6 +2,8 @@ import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
+import marketing from "../../public/influencerMarketing.jpg"
 
 function influencerMarketing() {
   return (
@@ -25,7 +27,7 @@ function influencerMarketing() {
 
       <Navbar />
       <div className="container">
-        <img className="img-fluid" src="/influencerMarketing.jpg" alt="influencer Marketing" height={300} width={2240}/>
+        <Image className="img-fluid" src={marketing} alt="influencer Marketing" />
       </div>
 
       <div className="container mt-5">
@@ -48,7 +50,7 @@ function influencerMarketing() {
 
 
 
-      <div className="container row btn-container mx-auto justify-content-center">
+      <div className="container row btn-container justify-content-center">
         <div className="col-md-3 col-6">
           <div className="col-md-12 col-12 btn login-btn-grad">
             Get Started
@@ -76,7 +78,7 @@ function influencerMarketing() {
         </div>
       </div>
 
-      <div className="container row btn-container mx-auto justify-content-center mb-5">
+      <div className="container row btn-container justify-content-center mb-5">
         <div className="col-md-3 col-6">
           <div className="col-md-12 col-12 btn signup-btn-grad">
             Signup Today

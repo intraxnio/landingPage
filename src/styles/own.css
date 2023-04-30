@@ -535,7 +535,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .bg-footer-container {
-  background-color: #feda75;
+  /* background-color: #feda75;
   background: #f09433;
   background: -moz-linear-gradient(
     45deg,
@@ -562,7 +562,12 @@ font-family: 'Roboto', sans-serif; */
     #bc1888 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-  color: white;
+  color: white; */
+
+  background: #5D26C1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #5D26C1, #a17fe0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #5D26C1, #a17fe0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .footer-head-text {
@@ -570,7 +575,7 @@ font-family: 'Roboto', sans-serif; */
   list-style: none;
   font-size: 1rem;
   font-weight: 500;
-  color: #3c3c3c;
+  color: #000000;
   text-align: start;
 }
 

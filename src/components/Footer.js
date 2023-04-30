@@ -87,11 +87,11 @@ export default function Footer() {
                   Follow us 
                 </li>
                 <li className="footer-content-text my-1">
-                  <Link href="https://www.instagram.com/intraxn.ai/"><a><Image  className="img-fluid rounded icon-image me-2" src={instagram} alt="instagram-icon" width={50} height={25} /></a></Link>
-                  <Link href="https://www.facebook.com/intraxn"><a><Image  className="img-fluid rounded icon-image me-2" src={facebook} alt="facebook-icon" width={50} height={25} /></a></Link>
-                  <Link href="https://www.youtube.com"><a><Image  className="img-fluid rounded icon-image me-2" src={youtube} alt="youtube-icon" width={50} height={30} /></a></Link>
-                  <Link href="https://www.twitter.com"><a><Image  className="img-fluid rounded icon-image me-2" src={twitter} alt="twitter-icon" width={50} height={25} /></a></Link>
-                  <Link href="https://www.linkedin.com/company/intraxn-ai/"><a><Image  className="img-fluid rounded icon-image me-2" src={linkedin} alt="linkedin-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.instagram.com/intraxn.ai/"><a><Image  className="img-fluid rounded icon-image" src={instagram} alt="instagram-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.facebook.com/intraxn"><a><Image  className="img-fluid rounded icon-image" src={facebook} alt="facebook-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.youtube.com"><a><Image  className="img-fluid rounded icon-image mt-1" src={youtube} alt="youtube-icon" width={55} height={35} /></a></Link>
+                  <Link href="https://www.twitter.com"><a><Image  className="img-fluid rounded icon-image" src={twitter} alt="twitter-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.linkedin.com/company/intraxn-ai/"><a><Image  className="img-fluid rounded icon-image" src={linkedin} alt="linkedin-icon" width={50} height={25} /></a></Link>
 
                   
                 </li>
@@ -104,7 +104,7 @@ export default function Footer() {
 
 
         <div className="container text-center my-3">
-          <span className="fw-normal">Copyright &copy;2023 intraxn </span>
+          <span className="fw-normal">Copyright &copy;2023 Intraxn </span>
         </div>
       </div>
     </>

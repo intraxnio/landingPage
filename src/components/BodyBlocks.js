@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import banner1 from "../../public/banner1.webp"
-import banner2 from "../../public/banner2.webp"
+import banner1 from "../../public/banner1.jpg"
+import banner2 from "../../public/banner2.jpg"
 import banner3 from "../../public/banner3.webp"
 
 
