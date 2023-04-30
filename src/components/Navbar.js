@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light mt-2">
 
             <div className="container-fluid">
-                <Link className="navbar-brand text-success" href="/"><Image src={logo} alt="intraxn" /></Link>
+                <Link href="/"><a className="navbar-brand text-success" ><Image src={logo} alt="intraxn" /></a></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -109,7 +109,7 @@ export default function Navbar() {
 
 
                         <div className="container my-2 ms-md-3">
-                            <button className="btn px-1 login-btn-grad btn-g-fonts text-white">Get Started</button>
+                            <button className="btn px-1 login-btn-grad btn-g-fonts text-white">Try for free</button>
 
                         </div>
 

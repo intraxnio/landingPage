@@ -95,7 +95,7 @@ function BodyBlocks() {
             <div className="container mx-auto h2 pt-2">With in 3 easy steps, campaign can be created.</div>
             <div className="container mx-auto row pt-2 pb-4">Upload content, deliverables & pick influencers and go live!</div>
             <div className="container mx-auto "> <div className="col-md-12 col-12 btn login-btn-grad">
-            Create Campaign
+            Try for free
           </div></div>
             </div>
         </div>
