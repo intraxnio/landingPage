@@ -22,6 +22,7 @@ function influencerMarketing() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="Zv0pxrxBGEMiesq_ydWWlCKLB8YiChp4x_TiozuRmaw" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDVV1R1TVX"></script>
+        
       </Head>
 
 
