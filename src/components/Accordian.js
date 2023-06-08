@@ -18,7 +18,7 @@ export default function Accordian() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              How Intraxn tool works for Brands ?
+              How Buzzreach works for Brands ?
             </button>
           </h2>
           <div
@@ -51,7 +51,7 @@ export default function Accordian() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              How Intraxn tool works for Creators?
+              How Buzzreach works for Creators?
             </button>
           </h2>
           <div

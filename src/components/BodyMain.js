@@ -21,7 +21,7 @@ function BodyMain() {
             <p>
               Discover
               <span className="creator-underline"> new collaborations</span>,
-              and monetize your Instagram account with Intraxn.
+              and monetize your Instagram account with Buzzreach.
 
             </p>
           </div>

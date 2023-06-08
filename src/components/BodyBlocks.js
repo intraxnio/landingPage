@@ -19,7 +19,7 @@ function BodyBlocks() {
                     <span className="span-70"> micro influencers</span> like you with brands in need of authentic collaborations.</p></div>
                 <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Connect with your favourite brands</p></div>
                 <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Create & post on your Instagram</p></div>
-                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Start earning today on Intraxn</p></div>
+                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Start earning today on Buzzreach</p></div>
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">

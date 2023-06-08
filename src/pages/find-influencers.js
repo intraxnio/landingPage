@@ -9,11 +9,11 @@ function findCreator() {
     <>
 
       <Head>
-        <title>How to find influencers to promote my product: Intraxn</title>
+        <title>How to find influencers to promote my product: Buzzreach</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Collaborate with top Instagram influencers to reach new audiences. 
         Find your perfect influencer match with our powerful influencer platform." />
-        <meta content="How to find influencers to promote my product: Intraxn" property="og:title" />
+        <meta content="How to find influencers to promote my product: Buzzreach" property="og:title" />
         <meta content="Collaborate with top Instagram influencers to reach new audiences. 
         Find your perfect influencer match with our powerful influencer platform." property="og:description" />
         <meta property="og:type" content="website" />
