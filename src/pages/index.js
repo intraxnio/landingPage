@@ -32,14 +32,15 @@ export default function Home() {
       <BodyCards />
       <Accordian />
       <Footer />
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LDVV1R1TVX"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5N98TTBKC"></Script>
 
         <Script id="analytics-script" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || [];
                 function gtag(){
                 dataLayer.push(arguments);
                 }
                 gtag('js', new Date());
-                gtag('config', 'G-LDVV1R1TVX');`}}></Script>
+                gtag('config', 'G-Y5N98TTBKC');`}}></Script>
+
          </>
   )
 }

@@ -20,8 +20,8 @@ function influencerMarketing() {
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta name="google-site-verification" content="Zv0pxrxBGEMiesq_ydWWlCKLB8YiChp4x_TiozuRmaw" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDVV1R1TVX"></script>
+        <meta name="google-site-verification" content="UI3gs4PUXaE4yjtRrG71nJUQ-yWwyzyEDN-TDwSp0M0" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5N98TTBKC"></script>
         
       </Head>
 

@@ -1,15 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '/public/Intraxn-logo.svg'
+import logo from '/public/logo.webp'
 
 export default function Navbar() {
     return (
 
         <nav className="navbar navbar-expand-lg navbar-light mt-2">
+            {/* <Image src={logo} alt="buzzreach" /> */}
 
             <div className="container-fluid">
-                <Link href="/"><a className="navbar-brand text-success" ><Image src={logo} alt="buzzreach" /></a></Link>
+                <Link href="/"><a className="navbar-brand text-success" >BuzzReach</a></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
