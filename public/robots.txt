@@ -4,4 +4,4 @@ Disallow: /blog/ghost/
 Disallow: /blog/p/
 Disallow: /blog/subscribe/
 
-Sitemap: https://www.intraxn.com/sitemap.xml
+Sitemap: https://www.buzzreach.in/sitemap.xml
