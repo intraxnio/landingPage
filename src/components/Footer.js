@@ -104,7 +104,7 @@ export default function Footer() {
 
 
         <div className="container text-center my-3">
-          <span className="fw-normal">Copyright &copy;2023 Buzzreach </span>
+          <span className="fw-normal">Copyright &copy;Rootcares Essentials Private Limited </span>
         </div>
       </div>
     </>
