@@ -19,30 +19,38 @@ export default function Footer() {
                 <li className="footer-head-text">Useful</li>
                 <li className="footer-content-text"><Link href="/terms-conditions"><a className="footer-subhead-decoration">Terms & Conditions</a></Link></li>
                 <li className="footer-content-text"><Link href="/privacy-policy"><a className="footer-subhead-decoration">Privacy Policy</a></Link></li>
-                <li className="footer-content-text"><Link href="/cancellation-policy"><a className="footer-subhead-decoration">Cancellation Policy</a></Link></li>
-                <li className="footer-content-text"><Link href="/refund-policy"><a className="footer-subhead-decoration">Refund Policy</a></Link></li>
+                <li className="footer-content-text"><Link href="/cancellation-policy"><a className="footer-subhead-decoration">Cancellation & Refund</a></Link></li>
+                <li className="footer-content-text"><Link href="/shipping-policy"><a className="footer-subhead-decoration">Shipping Policy</a></Link></li>
               </ul>
             </div>
           </div>
-          <div className="container col-sm-6 col-6 col-md-3 col-lg-3 my-2">
+          {/* <div className="container col-sm-6 col-6 col-md-3 col-lg-3 my-2">
             <div className="div">
               <ul>
                 <li className="footer-head-text">Support</li>
                 <li className="footer-content-text"><Link href="/support/contact"><a className="footer-subhead-decoration">Contact Us</a></Link></li>
+                <li className="footer-content-text"><Link href="/sitemap.xml"><a className="footer-subhead-decoration">Sitemap</a></Link></li>
+
                 <li className="footer-content-text"><Link href="/support/creators"><a className="footer-subhead-decoration">For Creators</a></Link></li>
                 <li className="footer-content-text"><Link href="/support/brands"><a className="footer-subhead-decoration">For Brands</a></Link></li>
                 <li className="footer-content-text"><Link href="/support/others"><a className="footer-subhead-decoration">Others</a></Link></li>
+
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="container col-sm-6 col-6 col-md-3 col-lg-3 my-2">
             <div className="div">
               <ul>
                 <li className="footer-head-text">Company</li>
-                <li className="footer-content-text"><Link href="/blog/first-blog"><a className="footer-subhead-decoration">Blog</a></Link></li>
+                {/* <li className="footer-content-text"><Link href="/blog/first-blog"><a className="footer-subhead-decoration">Blog</a></Link></li>
                 <li className="footer-content-text"><Link href="/about"><a className="footer-subhead-decoration">About Us</a></Link></li>
                 <li className="footer-content-text"><Link href="/our-mission"><a className="footer-subhead-decoration">Our Mission</a></Link></li>
+                <li className="footer-content-text"><Link href="/sitemap.xml"><a className="footer-subhead-decoration">Sitemap</a></Link></li> */}
+
+
+                <li className="footer-content-text"><Link href="/support/contact"><a className="footer-subhead-decoration">Contact Us</a></Link></li>
                 <li className="footer-content-text"><Link href="/sitemap.xml"><a className="footer-subhead-decoration">Sitemap</a></Link></li>
+
               </ul>
             </div>
           </div>
@@ -89,9 +97,9 @@ export default function Footer() {
                 <li className="footer-content-text my-1">
                   <Link href="https://www.instagram.com/intraxn.ai/"><a><Image  className="img-fluid rounded icon-image" src={instagram} alt="instagram-icon" width={50} height={25} /></a></Link>
                   <Link href="https://www.facebook.com/intraxn"><a><Image  className="img-fluid rounded icon-image" src={facebook} alt="facebook-icon" width={50} height={25} /></a></Link>
-                  <Link href="https://www.youtube.com"><a><Image  className="img-fluid rounded icon-image mt-1" src={youtube} alt="youtube-icon" width={55} height={35} /></a></Link>
+                  {/* <Link href="https://www.youtube.com"><a><Image  className="img-fluid rounded icon-image mt-1" src={youtube} alt="youtube-icon" width={55} height={35} /></a></Link>
                   <Link href="https://www.twitter.com"><a><Image  className="img-fluid rounded icon-image" src={twitter} alt="twitter-icon" width={50} height={25} /></a></Link>
-                  <Link href="https://www.linkedin.com/company/intraxn-ai/"><a><Image  className="img-fluid rounded icon-image" src={linkedin} alt="linkedin-icon" width={50} height={25} /></a></Link>
+                  <Link href="https://www.linkedin.com/company/intraxn-ai/"><a><Image  className="img-fluid rounded icon-image" src={linkedin} alt="linkedin-icon" width={50} height={25} /></a></Link> */}
 
                   
                 </li>

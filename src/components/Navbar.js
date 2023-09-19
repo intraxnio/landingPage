@@ -52,25 +52,25 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item dropdown me-5 my-2 ms-2">
-                            <Link href="#" ><a className="nav-link dropdown-toggle g-fonts" role="button" data-bs-toggle="dropdown" aria-expanded="false">No Middleman</a></Link>
+                            <Link href="#" ><a className="nav-link dropdown-toggle g-fonts" role="button" data-bs-toggle="dropdown" aria-expanded="false">Campaigns</a></Link>
                             <ul className="dropdown-menu custom-drop-width pt-3 pb-3 custom-box-shadow-navbar">
                                 <div className="container row mx-auto">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe0b6;</span></div>
-                                    <div className="col-10 col-md-10"> <Link href="/influencer-Marketing"><a className="subhead-decoration">DIY Campaigns</a></Link><br />
-                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></div>
+                                    <div className="col-10 col-md-10"> <Link href="/create-campaigns"><a className="subhead-decoration">DIY Campaigns</a></Link><br />
+                                        <span className="head-sub-head">Now Create a Campaign in 3 Super Easy Steps</span></div>
                                 </div>
 
-                                <div className="container row mx-auto pt-2">
+                                {/* <div className="container row mx-auto pt-2">
 
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
                                     <div className="col-10 col-md-10"> <Link href="/find-influencers"><a className="subhead-decoration" >Influencer Insights</a></Link> <br />
                                         <span className="head-sub-head">Choose your niche specific content creators</span></div>
 
-                                </div>
+                                </div> */}
 
                                 <div className="container row mx-auto pt-2">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe8e5;</span></div>
-                                    <div className="col-10 col-md-10 "> <Link href="/campaign-analytics"><a className="subhead-decoration" >AI Verify</a></Link> <br />
+                                    <div className="col-10 col-md-10 "> <Link href="/campaign-analytics"><a className="subhead-decoration" >Campaign Analytics</a></Link> <br />
                                         <span className="head-sub-head">Real-time analytics and analyse performance</span></div>
                                 </div>
 
@@ -84,14 +84,14 @@ export default function Navbar() {
                                 <div className="container row mx-auto">
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xe0b6;</span></div>
                                     <div className="col-10 col-md-10"> <Link  href="/influencer-Marketing"><a className="subhead-decoration">How to collaborate</a></Link><br />
-                                        <span className="head-sub-head">Explore, Collaborate, Promote attention-grabbing content</span></div>
+                                        <span className="head-sub-head">Download App, Collaborate & Promote attention-grabbing content</span></div>
                                 </div>
 
                                 <div className="container row mx-auto pt-2">
 
                                     <div className="col-2 col-md-2 pt-1 pb-1"><span className="material-icons">&#xea1d;</span></div>
-                                    <div className="col-10 col-md-10"> <Link href="/find-influencers"><a className="subhead-decoration">How payment works</a></Link><br />
-                                        <span className="head-sub-head">Choose your niche specific content creators</span></div>
+                                    <div className="col-10 col-md-10"> <Link href="/influencer-payments"><a className="subhead-decoration">How payment works</a></Link><br />
+                                        <span className="head-sub-head">24hrs window for the payment Disbursel</span></div>
 
                                 </div>
 
@@ -103,9 +103,6 @@ export default function Navbar() {
 
 
 
-                        <li className="nav-item me-5 ms-2 my-2">
-                            <Link href="/blog/first-blog"><a className="nav-link g-fonts" >Blog</a></Link>
-                        </li>
 
 
                         <div className="container my-2 ms-md-3">

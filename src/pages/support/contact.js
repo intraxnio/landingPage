@@ -1,17 +1,29 @@
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Footer from '@/components/Footer'
+
 
 function supportContact() {
   return (
    <>
    <Navbar />
-   <div className="container">
-    <img className="img-fluid" src="/influencerMarketing.jpg" alt="influencer Marketing" />
-    </div>
+  
 
     <div className="container">
-        <p></p>
+        <p>
+You may contact us using the information below:
+        </p>
+
+
+<p>
+Registered Address: Plot no - 210, Century Hills, Bhagyanagar Colony, Allapur, Hyderabad Hyderabad TELANGANA 500018 <br />
+Operational Address: Plot no - 210, Century Hills, Bhagyanagar Colony, Allapur, Hyderabad Hyderabad TELANGANA 500018 <br />
+
+E-Mail ID: sriram@buzzreach.in
+        </p>
     </div>
+
+    <Footer />
    </>
   )
 }
