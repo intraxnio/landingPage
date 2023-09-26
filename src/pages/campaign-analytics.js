@@ -10,10 +10,10 @@ function analytics() {
       <Head>
         <title>Influencer Marketing Insights: Campaign Reports and Analytics Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Easy-to-understand campaign reports and analytics directly on your dashboard. 
+        <meta name="description" content="Easy-to-understand campaign reports and analytics directly on your Dashboard. 
         Track engagement rates, impressions, reach, and conversions etc." />
         <meta content="Influencer Marketing Insights: Campaign Reports and Analytics Dashboard" property="og:title" />
-        <meta content="Easy-to-understand campaign reports and analytics directly on your dashboard. 
+        <meta content="Easy-to-understand campaign reports and analytics directly on your Dashboard. 
         Track engagement rates, impressions, reach, and conversions etc." property="og:description" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
