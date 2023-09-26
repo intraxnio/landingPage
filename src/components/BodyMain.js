@@ -9,19 +9,18 @@ function BodyMain() {
         <div className="container col-md-8 col-lg-8">
           <div className="row txt-1 megaRes">
             
-              <span className="">Micro Influencers</span>
+              <span className="">Brand Reach</span>
             
           </div>
-          <div className="row txt-2"> <p>Get Paid for<br />
-              posts on 
-              <span className="gradient-text"> Instagram.</span>
+          <div className="row txt-2"> <p>Collaborations with<br />
+              <span className="gradient-text">Influencers</span>
               </p></div>
        
           <div className="row txt-4">
             <p>
-              Discover
-              <span className="creator-underline"> new collaborations</span>,
-              and monetize your Instagram account with Buzzreach.
+              Create
+              <span className="creator-underline"> a campaign</span>,
+              and start receiving influencer requests. that&apos;s it
 
             </p>
           </div>
@@ -57,16 +56,16 @@ function BodyMain() {
 
       <div className="container row justify-content-center mt-5 mb-5 pt-4 pb-4 mx-auto">
         <div className="container col-6 col-md-3 col-lg-3 text-center body-tag-styles">
-          15k+ <br /> <span className="body-bottom-tag-styles">Creators</span>
+          15k+ <br /> <span className="body-bottom-tag-styles">Influencers</span>
         </div>
         <div className="container col-6 col-md-3 col-lg-3 text-center body-tag-styles">
-          80+ <br /> <span className="body-bottom-tag-styles">Brands</span>
+          {'>5.6%'} <br /> <span className="body-bottom-tag-styles">Engagement.R</span>
         </div>
         <div className="container col-6 col-md-3 col-lg-3 text-center body-tag-styles">
-          5000+ <br /> <span className="body-bottom-tag-styles">Campaigns</span>
+          1.2 M <br /> <span className="body-bottom-tag-styles">Avg. Reach</span>
         </div>
         <div className="container col-6 col-md-3 col-lg-3 text-center body-tag-styles">
-          500k+ <br /> <span className="body-bottom-tag-styles">Revenue</span>
+          70 k+ <br /> <span className="body-bottom-tag-styles">Avg. Likes</span>
         </div>
       </div>
     </>

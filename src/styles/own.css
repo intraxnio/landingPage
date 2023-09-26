@@ -346,6 +346,7 @@ font-family: 'Roboto', sans-serif; */
 .gradient-text {
   /* Fallback: Set a background color. */
   background-color: #ca4246;
+  font-size: larger;
 
   /* Create the gradient. */
   background-image: linear-gradient(

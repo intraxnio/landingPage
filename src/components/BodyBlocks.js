@@ -14,12 +14,12 @@ function BodyBlocks() {
 
         <div className="container row mx-auto">
             <div className="col-12 col-md-6 col-lg-6 my-auto">
-                <div className="row bb-txt-1"><p>Are you a <span className="creator-underline">Micro Influencer ?</span></p></div>
-                <div className="row bb-txt-2"><p>Find the perfect brand collaborations. Our marketplace connects 
-                    <span className="span-70"> micro influencers</span> like you with brands in need of authentic collaborations.</p></div>
-                <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Connect with your favourite brands</p></div>
-                <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Create & post on your Instagram</p></div>
-                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Start earning today on Buzzreach</p></div>
+                <div className="row bb-txt-1"><p>Why stuck in <span className="creator-underline"> Negotiations ?</span></p></div>
+                <div className="row bb-txt-2"><p>Create an influencer campaign in 
+                    <span className="span-70"> 5 Minutes,</span> that&apos;s it. Interested influencers will start sending requests along with their Price Per Post{' (PPP).'}</p></div>
+                <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Get UNLIMITED influencer requests</p></div>
+                <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Check influencer INSIGHTS & METRICS</p></div>
+                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Accept influencer REQUEST of your choice.</p></div>
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
@@ -38,7 +38,7 @@ function BodyBlocks() {
         </div>
 
             <div className="col-12 col-md-6 col-lg-6 my-auto">
-                <div className="row bb-txt-1"><p>Are you a <span className="creator-underline">Brand ?</span></p></div>
+                <div className="row bb-txt-1"><p>Get moreeee... <span className="creator-underline">Brand Reach</span></p></div>
                 <div className="row bb-txt-2"><p><span className="span-70">49%</span> of consumers say, they depend on influencer recommendations before they buy anything.
                 <span className="span-70"> 70%</span> of teens trust creator content more than a celebrity endorsement.</p></div>
                 <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Big impact on Marketing ROI</p></div>
