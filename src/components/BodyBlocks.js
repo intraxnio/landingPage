@@ -3,6 +3,8 @@ import Image from 'next/image'
 import banner1 from "../../public/banner1.jpg"
 import banner2 from "../../public/banner2.jpg"
 import banner3 from "../../public/banner3.webp"
+import Link from 'next/link'
+
 
 
 
@@ -57,8 +59,9 @@ function BodyBlocks() {
           <div className="col-md-6 col-12 my-auto">
             <div className="container mx-auto h2 pt-2">Pick micro-influencers who match your audience.</div>
             <div className="container mx-auto row pt-2 pb-4">Target the right audience by selecting niche content creators.</div>
-            <div className="container mx-auto "> <div className="col-md-12 col-12 btn signup-btn-grad">
-            Find Influencer
+            <div className="container mx-auto "> <div className="col-md-12 col-12">
+            <Link href="/pricing"><button className="btn signup-btn-grad btn-g-fonts text-white">Find Influencer</button></Link>
+
           </div></div>
             </div>
         </div>
@@ -94,8 +97,9 @@ function BodyBlocks() {
           <div className="col-md-6 col-12 my-auto">
             <div className="container mx-auto h2 pt-2">With in 3 easy steps, campaign can be created.</div>
             <div className="container mx-auto row pt-2 pb-4">Upload content, deliverables & pick influencers and go live!</div>
-            <div className="container mx-auto "> <div className="col-md-12 col-12 btn login-btn-grad">
-            Try for free
+            <div className="container mx-auto "> <div className="col-md-12 col-12">
+            <Link href="/pricing"><button className="btn login-btn-grad btn-g-fonts text-white">Create Campaign</button></Link>
+
           </div></div>
             </div>
         </div>

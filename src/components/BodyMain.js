@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import mainBanner from "../../public/mainImg.png"
+import Link from 'next/link'
+
 
 function BodyMain() {
   return (
@@ -42,17 +44,16 @@ function BodyMain() {
       </div>
 
       <div className="container row btn-container mx-auto">
-        <div className="col-md-3 col-6">
-          <div className="col-md-12 col-12 btn signup-btn-grad-main mx-auto">
-            I&apos;m a Brand
-          </div>
-        </div>
-        <div className="col-md-3 col-6">
-          <div className="col-md-12 col-12 btn login-btn-grad-main mx-auto">
-            I&apos;m a Creator
-          </div>
-        </div>
-      </div>
+      <div className="col-md-6 col-12">
+      <div className="col-md-12 col-12 text-center mx-auto">
+      <Link href="/pricing"><button className="btn signup-btn-grad btn-g-fonts text-white">Get Started</button></Link>
+
+                        </div>
+                        </div>
+                        </div>
+
+
+                      
 
       <div className="container row justify-content-center mt-5 mb-5 pt-4 pb-4 mx-auto">
         <div className="container col-6 col-md-3 col-lg-3 text-center body-tag-styles">

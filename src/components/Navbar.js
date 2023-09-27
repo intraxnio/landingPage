@@ -98,15 +98,13 @@ export default function Navbar() {
                             </ul>
                         </li>
 
-
-
-
-
-
+                        <li className="nav-item me-5 ms-2">
+                            <Link href="/pricing"><a className="nav-link my-2 g-fonts" aria-current="page" style={{textDecoration: 'none'}}>Pricing</a></Link>
+                        </li>
 
 
                         <div className="container my-2 ms-md-3">
-                            <button className="btn px-1 login-btn-grad btn-g-fonts text-white">Try for free</button>
+                        <Link href="/pricing"><button className="btn px-1 login-btn-grad btn-g-fonts text-white">Get Started</button></Link>
 
                         </div>
 
