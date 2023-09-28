@@ -19,7 +19,7 @@ You may contact us using the information below:
 Registered Address: Plot no - 210, Century Hills, Bhagyanagar Colony, Allapur, Hyderabad Hyderabad TELANGANA 500018 <br />
 Operational Address: Plot no - 210, Century Hills, Bhagyanagar Colony, Allapur, Hyderabad Hyderabad TELANGANA 500018 <br />
 
-E-Mail ID: sriram@buzzreach.in
+E-Mail ID: support@buzzreach.in
         </p>
     </div>
 
