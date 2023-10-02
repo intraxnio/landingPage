@@ -22,7 +22,7 @@ function BodyMain() {
             <p>
               Create
               <span className="creator-underline"> a campaign</span>,
-              and start receiving influencer requests. that&apos;s it
+               and begin accepting influencer requests — simple as that.
 
             </p>
           </div>
