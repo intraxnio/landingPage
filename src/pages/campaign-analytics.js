@@ -34,7 +34,7 @@ function analytics() {
         <div className="container row mx-auto">
           <div className="col-12 col-md-6 col-lg-6 my-auto">
             <div className="row bb-txt-1"><h1>Campaign<br /> <span className="creator-underline"> Reports & Analytics</span>.</h1></div>
-            <div className="row bb-txt-2"><p>Our dashboard generates detailed reports and analytics, helping brands gain a deeper understanding 
+            <div className="row bb-txt-2"><p>BroadReach dashboard generates detailed reports and analytics, helping brands gain a deeper understanding 
               of campaign performance and ROI. <br /><br /> With access to real-time data, brands can optimize their campaigns and maximize their results. 
                <br /><br /> Our platform also offers features such as influencer discovery and management, seamless campaign execution, and detailed performance metrics. 
               By partnering with us, brands can unlock the full potential of influencer marketing and take their campaigns to the next level.

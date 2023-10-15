@@ -40,7 +40,7 @@ function influencerMarketing() {
               <br />That&apos;s where influencer marketing comes in. <br /><br />
               By partnering with influencers in your niche, you can leverage their reach and credibility to amplify 
               your brand&apos;s message and drive engagement. But how do you find the right influencers for your brand ? <br /><br />
-              <code>Buzzreach</code> will help you identify the influencers that align with your brand values and target audience.</p></div>
+              <code>BroadReach</code> will help you identify the influencers that align with your brand values and target audience.</p></div>
           </div>
 
           <div className="col-12 col-md-6 col-lg-6">

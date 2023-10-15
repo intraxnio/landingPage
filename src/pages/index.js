@@ -11,13 +11,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Micro Influencer Platform for Brands and Creators: BroadReach</title>
+        <title>Micro-Influencer Marketing: Boost Your Brand with BroadReach</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Best Micro Influencer Platform for Brands and Content Creators in India. Hassle free
-        Influencer Marketing for Marketers." />
-        <meta content="Micro Influencer Platform for Brands and Creators: BroadReach" property="og:title" />
-        <meta content="Best Micro Influencer Platform for Brands and Content Creators in India. Hassle free
-        Influencer Marketing for Marketers." property="og:description" />
+        <meta name="description" content="The Go-To Micro-Influencer Platform for Indian Brands and Creators. Simplify Influencer Marketing for Your Brand." />
+        <meta content="Micro-Influencer Marketing: Boost Your Brand with BroadReach" property="og:title" />
+        <meta content="The Go-To Micro-Influencer Platform for Indian Brands and Creators. Simplify Influencer Marketing for Your Brand." property="og:description" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
