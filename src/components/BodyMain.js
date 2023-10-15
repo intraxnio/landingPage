@@ -11,7 +11,7 @@ function BodyMain() {
         <div className="container col-md-8 col-lg-8">
           <div className="row txt-1 megaRes">
             
-              <span className="">Brand Reach</span>
+              <span className="">Platform for</span>
             
           </div>
           <div className="row txt-2"> <p>Collaborations with<br />

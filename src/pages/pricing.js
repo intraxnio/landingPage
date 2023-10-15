@@ -48,8 +48,8 @@ function Pricing() {
                 <div className="col-12 col-md-6 col-lg-6 my-auto py-3">
               <div className="border border-primary rounded p-3">
                 <div className="row text-center">
-                  <p><span className="pricing-txt"> Starter</span></p>
-                  <p><span className="pricing-txt-price"> {isMonthly ? '$390' : '$39'}</span></p>
+                  <p><span className="pricing-txt"> Forever Free</span></p>
+                  <p><span className="pricing-txt-price"> {isMonthly ? '$0' : '$0'}</span></p>
 
 
                  
@@ -59,7 +59,7 @@ function Pricing() {
 
                             <div className="bb-txt-3 cussLine">
                               <span className="material-icons">campaign</span>
-                              <p>&nbsp;&nbsp;&nbsp;3 Campaigns</p>
+                              <p>&nbsp;&nbsp;&nbsp;1 Campaign</p>
                             </div>
 
                             <div className="bb-txt-3 cussLine">

@@ -11,17 +11,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Micro Influencer Platform for Brands and Creators: Buzzreach</title>
+        <title>Micro Influencer Platform for Brands and Creators: BroadReach</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Best Micro Influencer Platform for Brands and Content Creators in India. Hassle free
         Influencer Marketing for Marketers." />
-        <meta content="Micro Influencer Platform for Brands and Creators: Buzzreach" property="og:title" />
+        <meta content="Micro Influencer Platform for Brands and Creators: BroadReach" property="og:title" />
         <meta content="Best Micro Influencer Platform for Brands and Content Creators in India. Hassle free
         Influencer Marketing for Marketers." property="og:description" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://www.buzzreach.in" />
+        <link rel="canonical" href="https://www.broadreach.in" />
         <meta name="google-site-verification" content="UI3gs4PUXaE4yjtRrG71nJUQ-yWwyzyEDN-TDwSp0M0" />
        
         

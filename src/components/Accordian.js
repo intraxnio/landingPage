@@ -18,7 +18,7 @@ export default function Accordian() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              How Buzzreach works for Brands ?
+              How BroadReach works for Brands ?
             </button>
           </h2>
           <div
@@ -51,7 +51,7 @@ export default function Accordian() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              How Buzzreach works for Creators?
+              How BroadReach works for Creators?
             </button>
           </h2>
           <div
