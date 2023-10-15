@@ -21,6 +21,9 @@ export default function Footer() {
                 <li className="footer-content-text"><Link href="/privacy-policy"><a className="footer-subhead-decoration">Privacy Policy</a></Link></li>
                 <li className="footer-content-text"><Link href="/cancellation-policy"><a className="footer-subhead-decoration">Cancellation & Refund</a></Link></li>
                 <li className="footer-content-text"><Link href="/shipping-policy"><a className="footer-subhead-decoration">Shipping Policy</a></Link></li>
+                <li className="footer-content-text"><Link href="/support/contact"><a className="footer-subhead-decoration">Contact Us</a></Link></li>
+                <li className="footer-content-text"><Link href="/sitemap.xml"><a className="footer-subhead-decoration">Sitemap</a></Link></li>
+
               </ul>
             </div>
           </div>
@@ -38,33 +41,11 @@ export default function Footer() {
               </ul>
             </div>
           </div> */}
-          <div className="container col-sm-6 col-6 col-md-3 col-lg-3 my-2">
-            <div className="div">
-              <ul>
-                <li className="footer-head-text">Company</li>
-                {/* <li className="footer-content-text"><Link href="/blog/first-blog"><a className="footer-subhead-decoration">Blog</a></Link></li>
-                <li className="footer-content-text"><Link href="/about"><a className="footer-subhead-decoration">About Us</a></Link></li>
-                <li className="footer-content-text"><Link href="/our-mission"><a className="footer-subhead-decoration">Our Mission</a></Link></li>
-                <li className="footer-content-text"><Link href="/sitemap.xml"><a className="footer-subhead-decoration">Sitemap</a></Link></li> */}
-
-
-                <li className="footer-content-text"><Link href="/support/contact"><a className="footer-subhead-decoration">Contact Us</a></Link></li>
-                <li className="footer-content-text"><Link href="/sitemap.xml"><a className="footer-subhead-decoration">Sitemap</a></Link></li>
-
-              </ul>
-            </div>
-          </div>
+        
+          
           <div className="container col-sm-12 col-12 col-md-3 col-lg-3 my-2">
             <div className="div">
               <ul>
-                {/* <li className="footer-head-text">Registered HQ</li>
-                <li className="footer-content-text">
-                  Plot no-210, Century Hills, Hyderabad Telangana - 500018
-                </li>
-                <li className="footer-content-text">
-                  help@intraxn.com
-                </li> */}
-
                 <li className="footer-head-text">Compare</li>
                 <li className="footer-content-text">
                  Grynow Alternative
@@ -110,9 +91,8 @@ export default function Footer() {
 
 
 
-
         <div className="container text-center my-3">
-          <span className="fw-normal">Copyright &copy;Rootcares Essentials Private Limited </span>
+          <span className="fw-normal" style={{color: "#B9B4C7"}}>Copyright &copy;BroadReach <br />Rootcares Essentials Pvt Ltd | Hyderabad | Telangana | 500018 </span>
         </div>
       </div>
     </>
