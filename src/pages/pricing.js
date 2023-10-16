@@ -15,6 +15,16 @@ function Pricing() {
     return (
     <>
 
+<Head>
+        <title>Pricing: BroadReach</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="google-site-verification" content="HvvX1gisMdTNXS66CRCrbZTdRWr_q-P5JXjMDhwP3_4" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0SY7XGY0L"></script>
+       
+        
+      </Head>
+
     <Navbar />
 
 

@@ -20,8 +20,8 @@ function creatorPayments() {
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta name="google-site-verification" content="UI3gs4PUXaE4yjtRrG71nJUQ-yWwyzyEDN-TDwSp0M0" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5N98TTBKC"></script>
+        <meta name="google-site-verification" content="HvvX1gisMdTNXS66CRCrbZTdRWr_q-P5JXjMDhwP3_4" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0SY7XGY0L"></script>
       </Head>
 
 
