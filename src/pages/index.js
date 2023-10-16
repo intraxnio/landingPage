@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.broadreach.in" />
-        <meta name="google-site-verification" content="UI3gs4PUXaE4yjtRrG71nJUQ-yWwyzyEDN-TDwSp0M0" />
+        <meta name="google-site-verification" content="HvvX1gisMdTNXS66CRCrbZTdRWr_q-P5JXjMDhwP3_4" />
        
         
       </Head>
