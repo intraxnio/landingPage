@@ -101,23 +101,7 @@ font-family: 'Roboto', sans-serif; */
   text-decoration: none;
 }
 
-.signup-btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #1d976c 0%,
-    #93f9b9 51%,
-    #1d976c 100%
-  );
-  text-align: center;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  display: inline-block;
-  width: 12rem;
-  text-decoration: none;
 
-}
 
 .signup-btn-grad:hover {
   background-position: right center;
@@ -141,9 +125,9 @@ font-family: 'Roboto', sans-serif; */
 
 @media (min-width: 576px) {
   .txt-1 {
-    font-family: "Poppins";
-    font-size: 2.2rem;
-    margin-top: 6rem;
+    font-family: "Inter";
+    font-size: 2.5rem;
+    margin-top: 4rem;
   }
 
   .custom-drop-width{
@@ -153,8 +137,10 @@ font-family: 'Roboto', sans-serif; */
 
   .txt-2 {
     font-family: "Inter";
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
+    color: #11009E;
+
   }
 
   .txt-3 {
@@ -165,10 +151,10 @@ font-family: 'Roboto', sans-serif; */
   }
 
   .txt-4 {
-    font-family: "Poppins";
+    font-family: "Inter";
     margin-top: 1rem;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
     padding-right: 10rem;
     text-align: start;
   }
@@ -206,8 +192,8 @@ font-family: 'Roboto', sans-serif; */
 
   
   .bb-txt-2 {
-    font-family: "Poppins";
-    font-size: 1rem;
+    font-family: "Inter";
+    font-size: 1.2rem;
     font-weight: 400;
     color: #2f2e2e;
     margin-bottom: 25px;
@@ -242,6 +228,29 @@ font-family: 'Roboto', sans-serif; */
     padding-bottom: 30px;
     
   }
+
+  .signup-btn-grad {
+    background-image: linear-gradient(
+      to right,
+      #6319f8 0%,
+      #7752FE 51%,
+      #7752FE 100%
+    );
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: flex;
+    max-width: 50%;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: -10px;
+    font-weight: 500;
+
+  
+  }
 }
 
 
@@ -253,7 +262,7 @@ font-family: 'Roboto', sans-serif; */
 @media (max-width: 576px) {
   .txt-1 {
     font-family: "Poppins";
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 1.2rem;
     font-weight: 400;
     padding-left: 1rem;
@@ -264,6 +273,7 @@ font-family: 'Roboto', sans-serif; */
     font-size: 30px;
     font-weight: 700;
     padding-left: 1rem;
+    color: #11009E;
   }
 
   .txt-3 {
@@ -274,10 +284,10 @@ font-family: 'Roboto', sans-serif; */
   }
 
   .txt-4 {
-    font-family: "Poppins";
+    font-family: "Inter";
     padding-top: 0.5rem;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
 
@@ -316,19 +326,18 @@ font-family: 'Roboto', sans-serif; */
   }
 
   .bb-txt-1 {
-    font-family: "Poppins";
-    font-size: 1.2rem;
+    font-family: "Inter";
+    font-size: 18px;
     font-weight: 700;
     color: #2f2e2e;
-    margin-bottom: 15px;
     margin-top: 10px;
 
   }
 
   .bb-txt-2 {
-    font-family: "Poppins";
+    font-family: "Inter";
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 15px;
     line-height: 25px;
     color: #2f2e2e;
@@ -367,6 +376,46 @@ font-family: 'Roboto', sans-serif; */
     
   }
 
+  .gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: #ca4246;
+    font-size: 1.9rem;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(
+      45deg,
+      #ca4246 16.666%,
+      #e16541 16.666%,
+      #e16541 33.333%,
+      #f18f43 33.333%,
+      #f18f43 50%,
+      #8b9862 50%,
+      #8b9862 66.666%,
+      #476098 66.666%,
+      #476098 83.333%,
+      #a7489b 83.333%
+    );
+  
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    background-clip: '';
+    -webkit-text-fill-color: transparent;
+  
+    /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+  }
+  
+  .gradient-text:hover {
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+  }
+  
+
 }
 
 .span-49 {
@@ -385,52 +434,37 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .megaRes {
-  color: #618264;
   position: relative;
   text-decoration: none;
   font-weight: 500;
+  color: #D80032;
+
 }
 
-
-
-.gradient-text {
-  /* Fallback: Set a background color. */
-  background-color: #ca4246;
-  font-size: larger;
-
-  /* Create the gradient. */
+.signup-btn-grad {
   background-image: linear-gradient(
-    45deg,
-    #ca4246 16.666%,
-    #e16541 16.666%,
-    #e16541 33.333%,
-    #f18f43 33.333%,
-    #f18f43 50%,
-    #8b9862 50%,
-    #8b9862 66.666%,
-    #476098 66.666%,
-    #476098 83.333%,
-    #a7489b 83.333%
-  );
+      to right,
+      #6319f8 0%,
+      #11009E 51%,
+      #7752FE 100%
+    );
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  height: 50px;
+  font-weight: 500;
+  background-color: #11009E;
 
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
 
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  background-clip: '';
-  -webkit-text-fill-color: transparent;
-
-  /* Animate the text when loading the element. */
-  /* This animates it on page load and when hovering out. */
-  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
 }
 
-.gradient-text:hover {
-  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-}
+
+
 
 /* Move the background and make it smaller. */
 /* Animation shown when entering the page and after the hover animation. */
@@ -486,6 +520,8 @@ font-family: 'Roboto', sans-serif; */
   padding-bottom: 1px;
   position: relative;
   text-decoration: none;
+  font-weight: 600;
+  font-family: 'Inter';
 }
 
 .creator-underline::after {
@@ -793,7 +829,7 @@ font-family: 'Roboto', sans-serif; */
 
 .custom-container-dimensions{
   height:auto;
-  background-color: #b973ff;
+  background-color: #F5F5F5;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -801,7 +837,7 @@ font-family: 'Roboto', sans-serif; */
 
 .custom-container-dimensions-1{
   height:auto;
-  background-color: #A4BE7B;
+  background-color: #FFFBF5;
   padding-top: 60px;
   padding-bottom: 60px;
 

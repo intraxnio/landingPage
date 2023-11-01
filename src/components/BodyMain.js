@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import mainBanner from "../../public/mainImg.png"
+import mainBanner from "../../public/image1.png"
 import Link from 'next/link'
 
 
@@ -9,22 +9,18 @@ function BodyMain() {
     <>
       <div className="container mx-auto row">
         <div className="container col-md-8 col-lg-8">
+
           <div className="row txt-1 megaRes">
-            
-              <span className="">Platform for</span>
-            
+              {/* <span className="">Automated</span> */}
+              Automated
           </div>
-          <div className="row txt-2"> <p>Collaborations with<br />
-              <span className="gradient-text">Influencers</span>
-              </p></div>
+
+          {/* <div className="row txt-2"> <span className="gradient-text">Influencer Marketing</span> */}
+          <div className="row txt-2"> Influencer Marketing
+          <br />Platform.</div>
        
           <div className="row txt-4">
-            <p>
-              Create
-              <span className="creator-underline"> a campaign</span>,
-               and begin accepting influencer requests — simple as that.
-
-            </p>
+              Maximize your brand reach with micro-influencers across 15+ categories.
           </div>
         </div>
         <div className="col-md-4 col-lg-4 img-1">
