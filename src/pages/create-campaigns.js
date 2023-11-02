@@ -10,7 +10,7 @@ function createCampaigns() {
     <>
 
       <Head>
-        <title>How to create influencer marketing campaign</title>
+        <title>How to create a influencer marketing campaign</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Collaborate with top Instagram influencers to reach new audiences. 
         Find your perfect influencer match with our powerful influencer platform." />

@@ -245,8 +245,29 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
     max-width: 50%;
     text-decoration: none;
-    margin-top: 20px;
     margin-left: -10px;
+    font-weight: 500;
+
+  
+  }
+
+  .signup-btn-grad-2 {
+    background-image: linear-gradient(
+      to right,
+      #6319f8 0%,
+      #7752FE 51%,
+      #7752FE 100%
+    );
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: flex;
+    max-width: 50%;
+    text-decoration: none;
+    margin-top: 20px;
     font-weight: 500;
 
   
@@ -442,6 +463,28 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .signup-btn-grad {
+  background-image: linear-gradient(
+      to right,
+      #6319f8 0%,
+      #11009E 51%,
+      #7752FE 100%
+    );
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  height: 50px;
+  font-weight: 500;
+  background-color: #11009E;
+
+
+}
+
+.signup-btn-grad-2 {
   background-image: linear-gradient(
       to right,
       #6319f8 0%,

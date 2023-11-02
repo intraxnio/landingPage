@@ -60,7 +60,7 @@ function BodyBlocks() {
             <div className="container mx-auto h2 pt-2">Pick micro-influencers who match your audience.</div>
             <div className="container mx-auto row pt-2 pb-4">Target the right audience by selecting niche content creators.</div>
             <div className="container mx-auto "> <div className="col-md-12 col-12">
-            <Link href="/pricing"><button className="btn signup-btn-grad btn-g-fonts text-white">Find Influencer</button></Link>
+            <Link href="/pricing"><button className="btn signup-btn-grad-2 btn-g-fonts text-white">Find Influencer</button></Link>
 
           </div></div>
             </div>

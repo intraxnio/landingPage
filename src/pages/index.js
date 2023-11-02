@@ -9,13 +9,14 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
+    
     <>
       <Head>
-        <title>Micro-Influencer Marketing: Boost Your Brand with BroadReach</title>
+        <title>Automated Influencer Marketing Platform: BroadReach</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="The Go-To Micro-Influencer Platform for Indian Brands and Creators. Simplify Influencer Marketing for Your Brand." />
-        <meta content="Micro-Influencer Marketing: Boost Your Brand with BroadReach" property="og:title" />
-        <meta content="The Go-To Micro-Influencer Platform for Indian Brands and Creators. Simplify Influencer Marketing for Your Brand." property="og:description" />
+        <meta name="description" content="Reach driven micro-influencer marketing platform for businesses and brands to create campaigns for increased ROI." />
+        <meta content="Automated Influencer Marketing Platform: BroadReach" property="og:title" />
+        <meta content="Reach driven micro-influencer marketing platform for businesses and brands to create campaigns for increased ROI." property="og:description" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
