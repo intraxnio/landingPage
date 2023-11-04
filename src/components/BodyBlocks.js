@@ -16,9 +16,9 @@ function BodyBlocks() {
 
         <div className="container row mx-auto">
             <div className="col-12 col-md-6 col-lg-6 my-auto">
-                <div className="row bb-txt-1"><p>Why get held up in<span className="creator-underline txt-bold"> Negotiations ?</span></p></div>
+                <div className="row bb-txt-1"><p>Held up in<span className="creator-underline txt-bold"> Negotiation ?</span></p></div>
                 <div className="row bb-txt-2"><p>Escape the hassle of 
-                    <span className="span-70"> prolonged negotiations</span> and simplify influencer collaborations, enabling brands to focus on their core objectives and save valuable time.</p></div>
+                    <span className="span-70"> prolonged negotiations</span> and simplify influencer collaborations and save valuable time.</p></div>
                 <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Get UNLIMITED requests from interested influencers.</p></div>
                 <div className="row bb-txt-4"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Every request contains influencer&apos;s Price Per Post {'(PPP)'}.</p></div>
                 <div className="row bb-txt-5"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Access influencer INSIGHTS & METRICS effortlessly.</p></div>
@@ -40,12 +40,12 @@ function BodyBlocks() {
         </div>
 
             <div className="col-12 col-md-6 col-lg-6 my-auto">
-                <div className="row bb-txt-1"><p>Get moreeee... <span className="creator-underline">Brand Reach</span></p></div>
+                <div className="row bb-txt-1"><p>Moreeee... <span className="creator-underline">Brand Reach</span></p></div>
                 <div className="row bb-txt-2"><p><span className="span-70">49%</span> of consumers say, they depend on influencer recommendations before they buy anything.
                 <span className="span-70"> 70%</span> of teens trust creator content more than a celebrity endorsement.</p></div>
-                <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Big impact on Marketing ROI</p></div>
-                <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Highest engagement rate of 6%</p></div>
-                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Low budget; More brand reach</p></div>
+                <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Big impact on Marketing ROI.</p></div>
+                <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Highest engagement rate of 6%.</p></div>
+                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Low budget; More brand reach.</p></div>
             </div>
         </div>
 
@@ -75,9 +75,9 @@ function BodyBlocks() {
                 <div className="row bb-txt-1"><p><span className="span-underline">Reporting & Analytics</span></p></div>
                 <div className="row bb-txt-2"><p>Get Real time <span className="span-70">analytics and engagement</span> metrics of your promotion on your dashboard.
                 Reporting ROI is at ease.</p></div>
-                <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Accurate & Real-Time Analytics</p></div>
-                <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Download & Share Campaign Reports</p></div>
-                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Advanced Campaign Metrics</p></div>
+                <div className="row bb-txt-3"><p><span className="check-1"></span>&nbsp;&nbsp;&nbsp;Accurate & Real-Time Analytics.</p></div>
+                <div className="row bb-txt-4"><p><span className="check-2"></span>&nbsp;&nbsp;&nbsp;Download & Share Campaign Reports.</p></div>
+                <div className="row bb-txt-5"><p><span className="check-3"></span>&nbsp;&nbsp;&nbsp;Advanced Campaign Metrics.</p></div>
             </div>
 
             <div className="col-12 col-md-6 col-lg-6">
@@ -96,7 +96,7 @@ function BodyBlocks() {
           <div className="col-md-6 col-12 txt-2 text-center my-auto"><p>Create Campaign<br /> <span className="creator-underline"> in 5 minutes</span></p> </div>
           <div className="col-md-6 col-12 my-auto">
             <div className="container mx-auto h2 pt-2">With in 3 easy steps, campaign can be created.</div>
-            <div className="container mx-auto row pt-2 pb-4">Upload content, deliverables, pick influencers and go live!</div>
+            <div className="container mx-auto row pt-2 pb-4">Upload deliverables, pick influencers and go live!</div>
             <div className="container mx-auto "> <div className="col-md-12 col-12">
             <Link href="/pricing"><button className="btn login-btn-grad btn-g-fonts text-white">Create Campaign</button></Link>
 

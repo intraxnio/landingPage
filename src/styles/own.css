@@ -7,10 +7,7 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 500;
 }
 
-.btn-g-fonts {
-  font-family: "Inter";
-  font-weight: 400;
-}
+
 
 
 
@@ -152,7 +149,7 @@ font-family: 'Roboto', sans-serif; */
 
   .txt-4 {
     font-family: "Inter";
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
     padding-right: 10rem;
@@ -183,7 +180,7 @@ font-family: 'Roboto', sans-serif; */
 
   .bb-txt-1 {
     font-family: "Poppins";
-    font-size: 1.8rem;
+    font-size: 32px;
     font-weight: 500;
     color: #2f2e2e;
     margin-top: 10px;
@@ -201,26 +198,26 @@ font-family: 'Roboto', sans-serif; */
   }
 
   .bb-txt-3 {
-    font-family: "Poppins";
+    font-family: "Inter";
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #2f2e2e;
   }
   .bb-txt-4 {
-    font-family: "Poppins";
+    font-family: "Inter";
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #2f2e2e;
   }
   .bb-txt-5 {
-    font-family: "Poppins";
+    font-family: "Inter";
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #2f2e2e;
   }
 
   .inf-txt-1 {
-    font-family: "Poppins";
+    font-family: "Inter";
     font-size: 60px;
     font-weight: 700;
     color: #2f2e2e;
@@ -243,10 +240,9 @@ font-family: 'Roboto', sans-serif; */
     color: white;
     box-shadow: 0 0 20px #eee;
     display: flex;
-    max-width: 50%;
     text-decoration: none;
-    margin-left: -10px;
-    font-weight: 500;
+    font-weight: 400;
+    width: 100%;
 
   
   }
@@ -272,6 +268,55 @@ font-family: 'Roboto', sans-serif; */
 
   
   }
+  .subtext{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #7D7C7C;
+
+  }
+
+  .get-started-button-credit-card{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .creator-underline {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 42px;
+  }
+
+  .creator-underline-marketer {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 60px;
+  }
+
+  .creator-underline-marketer::after {
+    background: #ff2340;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      #ff0e1a 50%,
+      transparent 100%
+    );
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+
 }
 
 
@@ -348,7 +393,7 @@ font-family: 'Roboto', sans-serif; */
 
   .bb-txt-1 {
     font-family: "Inter";
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     color: #2f2e2e;
     margin-top: 10px;
@@ -365,35 +410,50 @@ font-family: 'Roboto', sans-serif; */
   }
 
   .bb-txt-3 {
-    font-family: "Poppins";
-    font-size: 15px;
-    font-weight: 400;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
     color: #2f2e2e;
-    margin-bottom: 5px;
   }
   .bb-txt-4 {
-    font-family: "Poppins";
-    font-size: 15px;
-    font-weight: 400;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
     color: #2f2e2e;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
   .bb-txt-5 {
-    font-family: "Poppins";
-    font-size: 15px;
-    font-weight: 400;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
     color: #2f2e2e;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
 
   .inf-txt-1 {
-    font-family: "Poppins";
-    font-size: 50px;
-    font-weight: 700;
+    font-family: "Inter";
+    font-size: 52px;
+    font-weight: 600;
     color: #2f2e2e;
     padding-top: 30px;
     padding-bottom: 30px;
     line-height: 60px;
+    
+  }
+
+  .subtext{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #7D7C7C;
+  }
+
+  .get-started-button-credit-card{
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
     
   }
 
@@ -434,6 +494,40 @@ font-family: 'Roboto', sans-serif; */
   
   .gradient-text:hover {
     animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+  }
+
+  .creator-underline-marketer {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 52px;
+  }
+
+  .creator-underline-marketer::after {
+    background: #ff2340;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      #ff0e1a 50%,
+      transparent 100%
+    );
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+
+  .creator-underline {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 26px;
   }
   
 
@@ -559,13 +653,7 @@ font-family: 'Roboto', sans-serif; */
   width: 100%;
 }
 
-.creator-underline {
-  padding-bottom: 1px;
-  position: relative;
-  text-decoration: none;
-  font-weight: 600;
-  font-family: 'Inter';
-}
+
 
 .creator-underline::after {
   background: #ff2340;
@@ -873,16 +961,20 @@ font-family: 'Roboto', sans-serif; */
 .custom-container-dimensions{
   height:auto;
   background-color: #F5F5F5;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 
 }
 
 .custom-container-dimensions-1{
   height:auto;
   background-color: #FFFBF5;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 
 }
 

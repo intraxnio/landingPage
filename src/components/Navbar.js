@@ -8,7 +8,7 @@ export default function Navbar() {
 
         <nav className="navbar navbar-expand-lg navbar-light mt-2">
 
-            <div className="container-fluid" > 
+            <div className="container" > 
                 {/* <Link href="/"><a className="navbar-brand text-success" ><Image src={logo} style={{ maxWidth: '100px', maxHeight: '50px', marginLeft: '10px' }} alt="buzzreach" /></a></Link> */}
                 <Link href="/"><a className="navbar-brand" style={{fontSize: '22px', fontWeight: 500, color: '#11009E', fontFamily: "Poppins" }} >BroadReach<span style={{color: '#D80032', fontSize: '28px'}}>.</span></a></Link>
 
@@ -105,10 +105,10 @@ export default function Navbar() {
                         </li>
 
 
-                        <div className="container my-2 ms-md-3">
+                        {/* <div className="container my-2 ms-md-3">
                         <Link href="/pricing"><button className="btn px-1 login-btn-grad btn-g-fonts text-white">Get Started</button></Link>
 
-                        </div>
+                        </div> */}
 
 
                     </ul>
