@@ -92,7 +92,7 @@ export default function Footer() {
 
 
         <div className="container text-center my-3">
-          <span className="fw-normal" style={{color: "#B9B4C7"}}>Copyright &copy;BroadReach <br />Rootcares Essentials Pvt Ltd | Hyderabad | Telangana | 500018 </span>
+          <span className="fw-normal" style={{color: "#B9B4C7"}}>Copyright &copy;BroadReach <br />Rootcares Essentials Private Limited | Hyderabad | Telangana | 500018 </span>
         </div>
       </div>
     </>

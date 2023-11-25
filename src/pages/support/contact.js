@@ -16,6 +16,7 @@ You may contact us using the information below:
 
 
 <p>
+Rootcares Essentials Private Limited
 Registered Address: Plot no - 210, Century Hills, Bhagyanagar Colony, Allapur, Hyderabad Hyderabad TELANGANA 500018 <br />
 Operational Address: Plot no - 210, Century Hills, Bhagyanagar Colony, Allapur, Hyderabad Hyderabad TELANGANA 500018 <br />
 
