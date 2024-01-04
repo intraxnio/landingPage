@@ -13,7 +13,7 @@ function refundPolicy() {
         <p>
         Shipping & Delivery Policy
 
-Last updated on Sep 18th 2023
+Last updated on Dec 10th 2023
 
 Shipping is not applicable for business.
         </p>

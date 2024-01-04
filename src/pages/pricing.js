@@ -18,7 +18,7 @@ function Pricing() {
     <>
 
 <Head>
-        <title>Pricing: BroadReach</title>
+        <title>Pricing: Lynkis</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="HvvX1gisMdTNXS66CRCrbZTdRWr_q-P5JXjMDhwP3_4" />
@@ -55,13 +55,13 @@ function Pricing() {
 
 
 
-    <div className="container row mx-auto mb-5">
+    <div className="container row mx-auto justify-content-center mb-5">
 
-                <div className="col-12 col-md-6 col-lg-6 my-auto py-3">
+                <div className="col-12 col-md-4 col-lg-4 py-3">
               <div className="border border-primary rounded p-3">
                 <div className="row text-center">
-                  <p><span className="pricing-txt"> Forever Free</span></p>
-                  <p><span className="pricing-txt-price"> {isMonthly ? '$0' : '$0'}</span></p>
+                  <p><span className="pricing-txt"> Starter</span></p>
+                  <p><span className="pricing-txt-price"> {isMonthly ? '$99' : '$9'}</span></p>
 
 
                  
@@ -70,43 +70,34 @@ function Pricing() {
               <div className="features-details">
 
                             <div className="bb-txt-3 cussLine">
-                              <span className="material-icons">campaign</span>
-                              <p>&nbsp;&nbsp;&nbsp;1 Campaign</p>
+                            <span class="material-icons me-3">all_inclusive</span>
+                              <p>Unlimited links</p>
                             </div>
 
                             <div className="bb-txt-3 cussLine">
-                            <span class="material-icons">all_inclusive</span>
-                              <p>&nbsp;&nbsp;&nbsp;Unlimited influencer requests</p>
+                            <span class="material-icons me-3">all_inclusive</span>
+                              <p>Unlimited clicks</p>
                             </div>
 
                             <div className="bb-txt-3 cussLine">
-                            <span class="material-icons">bar_chart</span>
-                              <p>&nbsp;&nbsp;&nbsp;Real time analytics</p>
+                            <span class="material-icons me-3">all_inclusive</span>
+                              <p>Unlimited redirects</p>
+                            </div>
+
+
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">bar_chart</span>
+                              <p>Real time analytics</p>
                             </div>
 
                             <div className="bb-txt-3 cussLine">
-                            <span class="material-icons">description</span>
-                              <p>&nbsp;&nbsp;&nbsp;Whitelabel Reporting</p>
+                            <span class="material-icons me-3">description</span>
+                              <p>Reports (PDF)</p>
                             </div>
 
                             <div className="bb-txt-3 cussLine">
-                            <span class="material-icons">query_stats</span>
-                              <p>&nbsp;&nbsp;&nbsp;Creator Insights</p>
-                            </div>
-
-                            <div className="bb-txt-3 cussLine">
-                            <span class="material-icons">done_all</span>
-                              <p>&nbsp;&nbsp;&nbsp;AI post verification</p>
-                            </div>
-
-                            <div className="bb-txt-3 cussLine">
-                            <span class="material-icons">mail</span>
-                              <p>&nbsp;&nbsp;&nbsp;Email Support</p>
-                            </div>
-
-                            <div className="bb-txt-3 cussLine">
-                            <span class="material-icons">call</span>
-                              <p>&nbsp;&nbsp;&nbsp;Phone Support</p>
+                            <span class="material-icons me-3">query_stats</span>
+                              <p>6 months of click data</p>
                             </div>
 
               </div>
@@ -122,54 +113,65 @@ function Pricing() {
             </div>
 
 
-            <div className="col-12 col-md-6 col-lg-6 my-auto py-3">
+            <div className="col-12 col-md-4 col-lg-4 py-3">
               <div className="border border-primary rounded p-3">
                 <div className="row text-center">
                 <p><span className="pricing-txt"> Start Up</span></p>
-                  <p><span className="pricing-txt-price"> {isMonthly ? '$490' : '$49'}</span></p>
+                  <p><span className="pricing-txt-price"> {isMonthly ? '$290' : '$29'}</span></p>
                 </div>
                
                 <div className="features-details">
 
-                  <div className="bb-txt-3 cussLine">
-                    <span className="material-icons">campaign</span>
-                    <p>&nbsp;&nbsp;&nbsp;Unlimited Campaigns</p>
-                  </div>
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">all_inclusive</span>
+                              <p>Unlimited links</p>
+                            </div>
 
-                  <div className="bb-txt-3 cussLine">
-                  <span class="material-icons">all_inclusive</span>
-                    <p>&nbsp;&nbsp;&nbsp;Unlimited influencer requests</p>
-                  </div>
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">all_inclusive</span>
+                              <p>Unlimited clicks</p>
+                            </div>
 
-                  <div className="bb-txt-3 cussLine">
-                  <span class="material-icons">bar_chart</span>
-                    <p>&nbsp;&nbsp;&nbsp;Real time analytics</p>
-                  </div>
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">all_inclusive</span>
+                              <p>Unlimited redirects</p>
+                            </div>
 
-                  <div className="bb-txt-3 cussLine">
-                  <span class="material-icons">description</span>
-                    <p>&nbsp;&nbsp;&nbsp;Whitelabel Reporting</p>
-                  </div>
 
-                  <div className="bb-txt-3 cussLine">
-                   <span class="material-icons">query_stats</span>
-                    <p>&nbsp;&nbsp;&nbsp;Creator Insights</p>
-                  </div>
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">bar_chart</span>
+                              <p>Real time analytics</p>
+                            </div>
 
-                  <div className="bb-txt-3 cussLine">
-                    <span class="material-icons">done_all</span>
-                      <p>&nbsp;&nbsp;&nbsp;AI post verification</p>
-                    </div>
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">description</span>
+                              <p>Reports (PDF)</p>
+                            </div>
 
-                  <div className="bb-txt-3 cussLine">
-                  <span class="material-icons">mail</span>
-                    <p>&nbsp;&nbsp;&nbsp;Email Support</p>
-                  </div>
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">query_stats</span>
+                              <p>2 years of click data</p>
+                            </div>
 
-                  <div className="bb-txt-3 cussLine">
-                  <span class="material-icons">call</span>
-                    <p>&nbsp;&nbsp;&nbsp;Phone Support</p>
-                  </div>
+                            <div className="bb-txt-3 cussLine">
+                              <span class="material-icons me-3">link</span>
+                                <p>Link retargeting</p>
+                              </div>
+
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">sell</span>
+                              <p>UTM builder</p>
+                            </div>
+
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">share</span>
+                              <p>Social share</p>
+                            </div>
+
+                            <div className="bb-txt-3 cussLine">
+                            <span class="material-icons me-3">language</span>
+                              <p>Custom domain</p>
+                            </div>
 
                   </div>
 

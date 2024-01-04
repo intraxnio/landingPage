@@ -16,7 +16,7 @@ function cancellationPolicy() {
 
         <p>
 
-Last updated on Sep 18th 2023
+Last updated on Dec 10th 2023
 
 ROOTCARES ESSENTIALS PRIVATE LIMITED believes in helping its customers as far as possible, and has therefore a liberal cancellation policy. Under this policy:
 

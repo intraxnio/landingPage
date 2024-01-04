@@ -12,7 +12,7 @@ export default function Home() {
     
     <>
       <Head>
-        <title>Automated Influencer Marketing Platform: BroadReach</title>
+        <title>Short link Generator: linck</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Reach driven micro-influencer marketing platform for businesses and brands to create campaigns for increased ROI." />
         <meta content="Automated Influencer Marketing Platform: BroadReach" property="og:title" />

@@ -13,7 +13,7 @@ function termsConditions() {
         <p>
         Terms & Conditions
 
-Last updated on Sep 18th 2023
+Last updated on Dec 10th 2023
 
 The Website Owner, including subsidiaries and affiliates “Website” or “Website Owner” or “we” or “us” or “our” provides the information contained on the website or any of the pages comprising the website “website” to visitors “visitors” cumulatively referred to as “you” or “your” hereinafter 
 subject to the terms and conditions set out in these website terms and conditions, the privacy policy and 

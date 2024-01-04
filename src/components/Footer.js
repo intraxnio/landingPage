@@ -48,29 +48,24 @@ export default function Footer() {
               <ul>
                 <li className="footer-head-text">Compare</li>
                 <li className="footer-content-text">
-                 Grynow Alternative
+                 Bitly Alternative
                 </li>
                 <li className="footer-content-text">
-                 Plixxo Alternative
+                 ShortUrl Alternative
                 </li>
                 <li className="footer-content-text">
-                 Grin Alternative
+                 Rebrandly Alternative
                 </li>
                 <li className="footer-content-text">
-                 Influencer Alternative
+                 TinyUrl Alternative
                 </li>
                 <li className="footer-content-text">
-                 Winkl Alternative
+                 t.ly Alternative
                 </li>
                 <li className="footer-content-text">
-                 Qoruz Alternative
+                 Pixally Alternative
                 </li>
-                <li className="footer-content-text">
-                 CreatorIQ Alternative
-                </li>
-                <li className="footer-content-text">
-                 PulpKey Alternative
-                </li>
+               
 
                 <li className="footer-head-text pt-4">
                   Follow us 
@@ -92,7 +87,7 @@ export default function Footer() {
 
 
         <div className="container text-center my-3">
-          <span className="fw-normal" style={{color: "#B9B4C7"}}>Copyright &copy;BroadReach <br />Rootcares Essentials Private Limited | Hyderabad | Telangana | 500018 </span>
+          <span className="fw-normal" style={{color: "#B9B4C7"}}>Copyright &copy;lynk.is 2023</span>
         </div>
       </div>
     </>

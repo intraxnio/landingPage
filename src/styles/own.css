@@ -290,6 +290,8 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 600;
     font-family: 'Inter';
     font-size: 42px;
+    color: #11009E;
+    
   }
 
   .creator-underline-marketer {
@@ -317,6 +319,87 @@ font-family: 'Roboto', sans-serif; */
     width: 100%;
   }
 
+  .row-center {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .right-arrow-1 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #0056f5; /* Adjust color as needed */
+    margin-right: 10px;
+  }
+  
+  .right-arrow-2 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #8b00d0; /* Adjust color as needed */
+    margin-right: 10px;
+  }
+  
+  .right-arrow-3 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #78b13f; /* Adjust color as needed */
+    margin-right: 10px;
+  }
+
+  .dot-1 {
+    width: 10px;
+    height: 10px;
+    background-color: #0056f5; /* Adjust color as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  .dot-2 {
+    width: 10px;
+    height: 10px;
+    background-color: #8b00d0; /* Adjust color as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  .dot-3 {
+    width: 10px;
+    height: 10px;
+    background-color: #78b13f; /* Adjust color as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  .just-arrow-1 {
+    margin-right: 10px;
+    display: inline-block;
+    color: #0056f5; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-2 {
+    margin-right: 10px;
+    display: inline-block;
+    color: #8b00d0; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-3 {
+    margin-right: 10px;
+    display: inline-block;
+    color: #78b13f; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+  
+
 }
 
 
@@ -326,6 +409,100 @@ font-family: 'Roboto', sans-serif; */
 
 /* Mobile Device*/
 @media (max-width: 576px) {
+
+  .row-center {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .right-arrow-1 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #0056f5; /* Adjust color as needed */
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+  .right-arrow-2 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #8b00d0; /* Adjust color as needed */
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+  .right-arrow-3 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #78b13f; /* Adjust color as needed */
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+
+  .dot-1 {
+    width: 20px;
+    height: 15px;
+    background-color: #0056f5; /* Adjust color as needed */
+    border-radius: 100%;
+    margin-right: 10px;
+    align-self: flex-start;
+    margin-top: 6px;
+
+  }
+
+  .dot-2 {
+    width: 20px;
+    height: 14px;
+    background-color: #8b00d0; /* Adjust color as needed */
+    border-radius: 100%;
+    margin-right: 10px;
+    align-self: flex-start;
+    margin-top: 6px;
+  }
+
+  .dot-3 {
+    width: 20px;
+    height: 13px;
+    background-color: #78b13f; /* Adjust color as needed */
+    border-radius: 100%;
+    margin-right: 10px;
+    align-self: flex-start;
+    margin-top: 6px;
+
+
+  }
+
+  .just-arrow-1 {
+    margin-right: 10px;
+    align-self: flex-start;
+    display: inline-block;
+    color: #0056f5; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-2 {
+    margin-right: 10px;
+    align-self: flex-start;
+    display: inline-block;
+    color: #8b00d0; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-3 {
+    margin-right: 10px;
+    align-self: flex-start;
+    display: inline-block;
+    color: #78b13f; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  
   .txt-1 {
     font-family: "Poppins";
     font-size: 22px;
@@ -528,7 +705,11 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 600;
     font-family: 'Inter';
     font-size: 26px;
+    color: #11009E;
+
   }
+
+
   
 
 }
@@ -655,7 +836,7 @@ font-family: 'Roboto', sans-serif; */
 
 
 
-.creator-underline::after {
+/* .creator-underline::after {
   background: #ff2340;
   background: linear-gradient(
     to right,
@@ -669,7 +850,7 @@ font-family: 'Roboto', sans-serif; */
   left: 0;
   height: 2px;
   width: 100%;
-}
+} */
 
 .body-tag-styles {
   font-family: "Poppins";
@@ -846,22 +1027,29 @@ font-family: 'Roboto', sans-serif; */
 
 /* loading pointer css */
 
+
+
+
 .check-1 {
-  display: inline-block;
-  transform: rotate(45deg);
+  display: flex;
+  transform: rotate(-180deg);
   height: 20px;
   width: 10px;
+  margin-right: 15px;
   --borderWidth: 3px;
   --borderColor: #0056f5;
   border-bottom: var(--borderWidth) solid var(--borderColor);
   border-right: var(--borderWidth) solid var(--borderColor);
 }
 
+
+
 .check-2 {
-  display: inline-block;
-  transform: rotate(45deg);
+  display: flex;
+  transform: rotate(-180deg);
   height: 20px;
   width: 10px;
+  margin-right: 13px;
   --borderWidth: 3px;
   --borderColor: #8b00d0;
   border-bottom: var(--borderWidth) solid var(--borderColor);
@@ -869,10 +1057,11 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .check-3 {
-  display: inline-block;
-  transform: rotate(45deg);
+  display: flex;
+  transform: rotate(-180deg);
   height: 20px;
   width: 10px;
+  margin-right: 13px;
   --borderWidth: 3px;
   --borderColor: #78b13f;
   border-bottom: var(--borderWidth) solid var(--borderColor);
