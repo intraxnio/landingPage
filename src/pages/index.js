@@ -6,8 +6,21 @@ import Footer from '@/components/Footer'
 import BodyBlocks from '@/components/BodyBlocks'
 import BodyCards from '@/components/BodyCards'
 import Script from 'next/script'
+import { useEffect } from 'react';
 
 export default function Home() {
+
+  useEffect(() => {
+    // Extract the shortcode from the current URL
+    const pathArray = window.location.pathname.split('/');
+    const shortcode = pathArray[pathArray.length - 1];
+
+    // Redirect to the corresponding URL on the app.linck.one subdomain
+    const redirectUrl = `https://app.linck.one/${shortcode}`;
+    window.location.href = redirectUrl;
+  }, []);
+
+
   return (
     
     <>
