@@ -18,7 +18,7 @@ export default function Accordian() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              How BroadReach works for Brands ?
+              How linck is different from bitly?
             </button>
           </h2>
           <div
@@ -51,7 +51,7 @@ export default function Accordian() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              How BroadReach works for Creators?
+              How linck works for Creators?
             </button>
           </h2>
           <div

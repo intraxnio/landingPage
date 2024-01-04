@@ -87,7 +87,7 @@ export default function Footer() {
 
 
         <div className="container text-center my-3">
-          <span className="fw-normal" style={{color: "#B9B4C7"}}>Copyright &copy;lynk.is 2023</span>
+          <span className="fw-normal" style={{color: "#B9B4C7"}}>Copyright &copy;linck.one 2023</span>
         </div>
       </div>
     </>

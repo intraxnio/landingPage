@@ -24,7 +24,7 @@ function BodyMain() {
           </h2>
 
           <h3 className="row txt-4">
-            <Link href="/pricing"><a className="nav-link g-fonts" aria-current="page" style={{textDecoration: 'none'}}>lynk.is/features&#x1F60D;</a></Link>
+            <Link href="/pricing"><a className="nav-link g-fonts" aria-current="page" style={{textDecoration: 'none'}}>linck.one/features&#x1F60D;</a></Link>
           </h3>
         </div>
         <div className="col-md-4 col-lg-4 img-1">
