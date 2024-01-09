@@ -9,11 +9,13 @@ const ShortcodePage = () => {
   if (shortcode) {
     // Redirect logic or any other processing
     console.log(`Redirecting to https://app.linck.one/${shortcode}`);
+    const redirectUrl = `https://app.linck.one/${shortcode}`;
+    window.location.href = redirectUrl;
   }
 
   return (
     <div>
-      <p>Content for shortcode: {shortcode}</p>
+      {/* <p>Content for shortcode: {shortcode}</p> */}
     </div>
   );
 };

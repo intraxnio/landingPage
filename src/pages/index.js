@@ -10,26 +10,26 @@ import { useEffect } from 'react';
 
 export default function Home() {
 
-  useEffect(() => {
-    const pathArray = window.location.pathname.split('/');
-    const shortcode = pathArray[pathArray.length - 1];
+  // useEffect(() => {
+  //   const pathArray = window.location.pathname.split('/');
+  //   const shortcode = pathArray[pathArray.length - 1];
     
-    // List of paths that trigger redirection
-    const redirectPaths = ['/contact', '/pricing'];
+  //   // List of paths that trigger redirection
+  //   const redirectPaths = ['/contact', '/pricing'];
     
-    // Check if the path is in the list of paths that trigger redirection
-    if (shortcode && shortcode !== "" && redirectPaths.includes(`/${shortcode}`)) {
-      // Redirect to the corresponding URL on the app.linck.one subdomain
-      // const redirectUrl = `https://app.linck.one/${shortcode}`;
-      // window.location.href = redirectUrl;
-    } else {
-      // No redirection needed, stay on the current page (www.linck.one)
-      console.log("No redirection needed, staying on the current page.");
-      const redirectUrl = `https://app.linck.one/${shortcode}`;
-      window.location.href = redirectUrl;
-    }
+  //   // Check if the path is in the list of paths that trigger redirection
+  //   if (shortcode && shortcode !== "" && redirectPaths.includes(`/${shortcode}`)) {
+  //     // Redirect to the corresponding URL on the app.linck.one subdomain
+  //     // const redirectUrl = `https://app.linck.one/${shortcode}`;
+  //     // window.location.href = redirectUrl;
+  //   } else {
+  //     // No redirection needed, stay on the current page (www.linck.one)
+  //     console.log("No redirection needed, staying on the current page.");
+  //     const redirectUrl = `https://app.linck.one/${shortcode}`;
+  //     window.location.href = redirectUrl;
+  //   }
     
-  }, []);
+  // }, []);
 
 
   return (
