@@ -11,13 +11,19 @@ import { useEffect } from 'react';
 export default function Home() {
 
   useEffect(() => {
-    // Extract the shortcode from the current URL
+   
     const pathArray = window.location.pathname.split('/');
-    const shortcode = pathArray[pathArray.length - 1];
+const shortcode = pathArray[pathArray.length - 1];
 
-    // Redirect to the corresponding URL on the app.linck.one subdomain
-    const redirectUrl = `https://app.linck.one/${shortcode}`;
-    window.location.href = redirectUrl;
+// Check if there is a shortcode
+if (shortcode && shortcode !== "") {
+  // Redirect to the corresponding URL on the app.linck.one subdomain
+  const redirectUrl = `https://app.linck.one/${shortcode}`;
+  window.location.href = redirectUrl;
+} else {
+  // No shortcode, stay on the current page (www.linck.one)
+  console.log("No shortcode detected, staying on the current page.");
+}
   }, []);
 
 
