@@ -38,14 +38,14 @@ export default function Home() {
       <Head>
         <title>Short link Generator: linck</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Reach driven micro-influencer marketing platform for businesses and brands to create campaigns for increased ROI." />
-        <meta content="Automated Influencer Marketing Platform: BroadReach" property="og:title" />
-        <meta content="Reach driven micro-influencer marketing platform for businesses and brands to create campaigns for increased ROI." property="og:description" />
+        <meta name="description" content="Create Free short links, link-in-bio pages and fast URL Shortener online. Short URL links from Facebook, Instagram, YouTube, LinkedIn and WhatsApp." />
+        <meta content="Short link Generator: linck" property="og:title" />
+        <meta content="Create Free short links, link-in-bio pages and fast URL Shortener online. Short URL links from Facebook, Instagram, YouTube, LinkedIn and WhatsApp." property="og:description" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.broadreach.in" />
-        <meta name="google-site-verification" content="HvvX1gisMdTNXS66CRCrbZTdRWr_q-P5JXjMDhwP3_4" />
+        <meta name="google-site-verification" content="aiicCQWh3cvzxmXsmX1XJSXD1nmXnhbrTvovzK1c7vo" />
        
         
       </Head>
